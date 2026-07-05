@@ -8,7 +8,7 @@
 
 ## 🧬 Hi There
 
-I'm Marcos, a biotech student based in Medellín, Colombia, building software at the intersection of **genomics, machine learning, and automation**.
+I'm Marcos, a biotech student at I.U. Colegio Mayor de Antioquia based in Medellín, Colombia, building software at the intersection of **genomics, machine learning, and automation**.
 
 - 🧬 Currently building reproducible bioinformatics pipelines (genome assembly, variant calling, RNA-seq)
 - 🤖 Learning machine learning through hands-on projects rather than passive courses
@@ -33,8 +33,23 @@ I'm Marcos, a biotech student based in Medellín, Colombia, building software at
 | [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI agent that automates desk & file organization | Python |
 
 ## 🎓 Education
+B.S. Biotechnology (Expected 2027)
+Institución Universitaria Colegio Mayor de Antioquia
+Medellín, Colombia
 
-- B.S. Biotechnology (in progress) — Colombia
+Focus:
+• Genomics
+• Bioinformatics
+• Machine Learning
+
+## Research Interests
+
+- Comparative Genomics
+- Functional Genomics
+- Computational Biology
+- Machine Learning for Omics
+- Laboratory Automation
+- Open Science
 
 ## 📡 Activity Feed
 
