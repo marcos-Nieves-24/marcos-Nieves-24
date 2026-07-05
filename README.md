@@ -1,92 +1,117 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:8BA888,100:E8DFC8&height=200&section=header&text=Lab%20Notebook%20%E2%80%94%20Marcos%20Alvarez&fontSize=34&fontColor=2B2B2B&fontAlignY=45&desc=Biotech%20Student%20%7C%20Bioinformatics%20%7C%20Machine%20Learning&descAlignY=65&descSize=16&descColor=3A3A3A" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:0d1b2a,100:00ffc8&height=220&section=header&text=MARCOS%20ALVAREZ&fontSize=44&fontColor=00ffc8&animation=twinkling&desc=BIO.SYS%20%2F%2F%20WETWARE%20MEETS%20SOFTWARE&descAlignY=68&descSize=16&descColor=7fffd4" width="100%"/>
 
-<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-4a5c4a?style=flat-square&logo=linkedin&logoColor=E8DFC8"/></a>
-<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-4a5c4a?style=flat-square&logo=gmail&logoColor=E8DFC8"/></a>
+<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00ffc8"/></a>
+<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=00ffc8"/></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duty=50&pause=800&color=00FFC8&background=00000000&center=true&vCenter=true&width=650&lines=%3E+booting+bio_systems.exe...;%3E+compiling+genome_pipelines...;%3E+status%3A+biotech+student+%7C+builder;%3E+decoding+DNA+one+repo+at+a+time" alt="Typing SVG" />
 
 </div>
 
 <br/>
 
 ```
-        5'--A--T--G--C--G--T--A--C--3'
-             |  |  |  |  |  |  |  |
-        3'--T--A--C--G--C--A--T--G--5'
-
-           strand 1 : biology
-           strand 2 : code
+┌──────────────────────────────────────────────────┐
+│  SYSTEM BOOT LOG                                  │
+├──────────────────────────────────────────────────┤
+│  [OK] wetware_module ......... biotech student    │
+│  [OK] compute_module ......... ML + bioinformatics│
+│  [OK] automation_module ...... agents / IoT        │
+│  [OK] location ............... Medellín, CO        │
+│  [ .. ] uptime ............... still learning      │
+└──────────────────────────────────────────────────┘
 ```
 
 <br/>
 
-## 📋 Entry 001 — Who's keeping this notebook
+## ⚡ IDENTITY.exe
 
-Biotech student, Medellín, Colombia. This notebook tracks the experiments where **biology meets software** — genomics pipelines, ML models, and the occasional automation tool built to remove some friction from lab work.
+I'm a biotech student engineering the overlap between **genomics, machine learning, and automation.** Think of it as running two operating systems at once — biological and digital — and writing the interface between them.
 
-> **Working hypothesis:** the most useful skills sit at the intersection of two fields, not deep inside just one.
+```python
+class Marcos(BiotechUnit):
+    stack = ["Python", "Bash", "Genomics", "ML"]
+    mission = "turn raw biological signal into working software"
 
-**Status:** `actively building` · **Approach:** `learn by shipping real pipelines, not just tutorials`
+    def status(self):
+        return "🟢 ONLINE — building, not just studying"
+```
 
 <br/>
 
-## 🧫 Entry 002 — Specimen Log (Featured Projects)
+## 🧬 ACTIVE PROCESSES // Featured Builds
 
 <table>
 <tr>
-<th align="left">Sample ID</th>
-<th align="left">Observation</th>
-<th align="left">Reagents Used</th>
+<td width="50%" valign="top">
+
+**⟩⟩ genome-variant-software**
+`[GENOMICS] [PIPELINE]`
+CFTR genome assembly → variant calling → annotation. Fully reproducible.
+[→ open_repo](https://github.com/marcos-Nieves-24/genome-variant-software)
+
+</td>
+<td width="50%" valign="top">
+
+**⟩⟩ rna-seq-to-rnai-pipeline**
+`[TRANSCRIPTOMICS] [RNAi]`
+End-to-end RNA-seq → functional transcript analysis → RNAi candidate discovery.
+[→ open_repo](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline)
+
+</td>
 </tr>
 <tr>
-<td>🧬 <a href="https://github.com/marcos-Nieves-24/genome-variant-software"><b>genome-variant-software</b></a></td>
-<td>Reproducible pipeline for CFTR genome assembly, variant calling, comparison &amp; gene annotation</td>
-<td><code>Python</code> <code>Bash</code></td>
-</tr>
-<tr>
-<td>🧫 <a href="https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline"><b>rna-seq-to-rnai-pipeline</b></a></td>
-<td>End-to-end RNA-seq pipeline for functional transcript analysis &amp; RNAi candidate discovery</td>
-<td><code>Python</code> <code>RNA-seq</code></td>
-</tr>
-<tr>
-<td>📊 <a href="https://github.com/marcos-Nieves-24/ml-bootcamp"><b>ml-bootcamp</b></a></td>
-<td>Machine learning experiments and notebooks, built hands-on rather than copied from courses</td>
-<td><code>Jupyter</code> <code>Python</code></td>
-</tr>
-<tr>
-<td>🤖 <a href="https://github.com/marcos-Nieves-24/autonomous-desk-organizer"><b>autonomous-desk-organizer</b></a></td>
-<td>AI agent that automates desk &amp; file organization</td>
-<td><code>Python</code> <code>AI Agents</code></td>
+<td width="50%" valign="top">
+
+**⟩⟩ ml-bootcamp**
+`[MACHINE LEARNING]`
+Live-fire ML experiments — models trained by building, not just watching tutorials.
+[→ open_repo](https://github.com/marcos-Nieves-24/ml-bootcamp)
+
+</td>
+<td width="50%" valign="top">
+
+**⟩⟩ autonomous-desk-organizer**
+`[AI AGENT] [AUTOMATION]`
+An autonomous agent that manages desk/file order without being asked twice.
+[→ open_repo](https://github.com/marcos-Nieves-24/autonomous-desk-organizer)
+
+</td>
 </tr>
 </table>
 
 <br/>
 
-## 🧪 Entry 003 — Reagents & Tools on the Bench
+## 🛰️ TECH_STACK.json
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux&theme=light" />
+<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux&theme=dark" />
 </div>
 
 <br/>
 
-## 📈 Entry 004 — Instrument Readings
+## 📡 LIVE TELEMETRY
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=solarized-light&hide_border=true&bg_color=E8DFC8&title_color=4a5c4a&icon_color=4a5c4a&text_color=2B2B2B" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=solarized-light&hide_border=true&background=E8DFC8&ring=4a5c4a&fire=4a5c4a&currStreakLabel=2B2B2B" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000&title_color=00ffc8&icon_color=00ffc8&text_color=7fffd4" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=nightowl&hide_border=true&background=00000000&ring=00ffc8&fire=00ffc8&currStreakLabel=7fffd4" width="48%"/>
 </div>
 
 <br/>
 
-## 🔖 Entry 005 — Contact the Researcher
+## 📶 UPLINK
 
-- 📧 uni.biotec.24@gmail.com
-- 🔗 [linkedin.com/in/marcos-alvarez-362b721a8](https://linkedin.com/in/marcos-alvarez-362b721a8)
+```
+> contact --email uni.biotec.24@gmail.com
+> contact --linkedin marcos-alvarez-362b721a8
+> connection established. awaiting collaboration request...
+```
 
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:E8DFC8,100:8BA888&height=90&section=footer" width="100%"/>
-<sub>last updated in this notebook: ongoing</sub>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:00ffc8,50:0d1b2a,100:000000&height=100&section=footer" width="100%"/>
 </div>
