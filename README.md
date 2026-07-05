@@ -32,8 +32,8 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 <tr>
 
 <td width="350">
-
-### 🤖 ML Bootcamp
+  
+### <a href="https://github.com/marcos-Nieves-24/ml-bootcamp">🤖 ML Bootcamp</a>
 
 > An introduction to ML for biological data analysis and SaaS
 
@@ -48,12 +48,11 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 `Python` `Bash` `Jupiter`
 
-<a href="https://github.com/...">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=ml-bootcamp&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
-</a>
+</td>
+
 <td width="350">
 
-### 🧬 VarFlow
+### <a href="https://github.com/marcos-Nieves-24/VarFlow">🧬 VarFlow</a>
 
 > Reproducible genome assembly and variant calling pipeline.
 
@@ -68,14 +67,13 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 `Python` `Bash`
 
-<a href="https://github.com/...">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
-</a>
+</td>
+
 <td width="350">
 
-### 🤖 LabFlow
+### <a href="https://github.com/marcos-Nieves-24/LabFlow"> 🤖 LabFlow </a>
 
-> AI-powered laboratory administration platform that automates scheduling, administrative requests, and researcher workflows.
+> AI-powered laboratory administration platform.
 
 **Highlights**
 
@@ -88,14 +86,13 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 `Python` `FastAPI` `PostgreSQL` `AI`
 
-<a href="https://github.com/marcos-Nieves-24/labflow">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=labflow&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
-</a>
+</td>
+
 <td width="350">
 
 ### <a href="https://github.com/marcos-Nieves-24/BioEncrypter"> 🧬 BioEncrypter </a> 
 
-> Open-source toolkit for protecting sensitive biological data through encryption, integrity verification, and secure sharing.
+> Open-source toolkit for protecting sensitive biological data.
 
 **Highlights**
 
@@ -107,6 +104,9 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 **Stack**
 
 `Python` `Cryptography` `Typer`
+
+</td>
+  
 </tr>
 </table>
 
