@@ -93,7 +93,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 </a>
 <td width="350">
 
-### <a href="https://github.com/marcos-Nieves-24/BioEncrypter)"> 🧬 BioEncrypter </a> 
+### <a href="https://github.com/marcos-Nieves-24/BioEncrypter"> 🧬 BioEncrypter </a> 
 
 > Open-source toolkit for protecting sensitive biological data through encryption, integrity verification, and secure sharing.
 
