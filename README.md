@@ -46,7 +46,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 **Stack**
 
-`Python` `Bash`
+`Python` `Bash` `Jupiter`
 
 <a href="https://github.com/...">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=ml-bootcamp&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
@@ -73,9 +73,9 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 </a>
 <td width="350">
 
-### 🧬 Genome Variant Software
+### 🧬 LabFlow
 
-> Reproducible genome assembly and variant calling pipeline.
+> Automation toolkit for laboratory and computational workflows
 
 **Highlights**
 
@@ -138,10 +138,10 @@ I'm always interested in collaborating on projects involving:
 • Machine Learning
 • Automatization
 
-<div align="center">
+<div align="left">
 
-[LinkedIn Badge]
+<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-[Email Badge]
 
 </div>
