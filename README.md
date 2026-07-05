@@ -27,12 +27,92 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 ## 🚀 Featured Projects
 
-| Project | What it Does | Technologies |
-|----------|--------------|--------------|
-| [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software) | Reproducible genome assembly, variant calling, comparative analysis, and annotation pipeline | Python • Bash |
-| [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | Automated RNA-seq workflow for transcriptome analysis and RNAi target discovery | Python |
-| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Machine learning implementations and experiments focused on biological datasets | Python • Jupyter |
-| [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI-powered automation agent for organizing digital workspaces | Python |
+
+<table>
+<tr>
+
+<td width="350">
+
+### 🤖 ML Bootcamp
+
+> An introduction to ML for biological data analysis and SaaS
+
+**Highlights**
+
+- Supervised learning
+- Model evaluation
+- Data preprocessing
+- Scientific computing
+
+**Stack**
+
+`Python` `Bash`
+
+<a href="https://github.com/...">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=ml-bootcamp&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
+</a>
+<td width="350">
+
+### 🧬 Genome Variant Software
+
+> Reproducible genome assembly and variant calling pipeline.
+
+**Highlights**
+
+- Genome Assembly
+- Variant Calling
+- Gene Annotation
+- Comparative Genomics
+
+**Stack**
+
+`Python` `Bash`
+
+<a href="https://github.com/...">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
+</a>
+<td width="350">
+
+### 🧬 Genome Variant Software
+
+> Reproducible genome assembly and variant calling pipeline.
+
+**Highlights**
+
+- Genome Assembly
+- Variant Calling
+- Gene Annotation
+- Comparative Genomics
+
+**Stack**
+
+`Python` `Bash`
+
+<a href="https://github.com/...">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
+</a>
+<td width="350">
+
+### 🧬 Genome Variant Software
+
+> Reproducible genome assembly and variant calling pipeline.
+
+**Highlights**
+
+- Genome Assembly
+- Variant Calling
+- Gene Annotation
+- Comparative Genomics
+
+**Stack**
+
+`Python` `Bash`
+
+<a href="https://github.com/...">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
+</a>
+</tr>
+</table>
 
 ## 🔬 Research Experience
 
