@@ -93,7 +93,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 </a>
 <td width="350">
 
-### 🧬 BioEncrypter
+### <a href="https://github.com/marcos-Nieves-24/BioEncrypter)"> 🧬 BioEncrypter </a> 
 
 > Open-source toolkit for protecting sensitive biological data through encryption, integrity verification, and secure sharing.
 
@@ -107,10 +107,6 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 **Stack**
 
 `Python` `Cryptography` `Typer`
-
-<a href="https://github.com/marcos-Nieves-24/bioencrypter">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=bioencrypter&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
-</a>
 </tr>
 </table>
 
