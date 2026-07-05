@@ -53,7 +53,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 </a>
 <td width="350">
 
-### 🧬 Genome Variant Software
+### 🧬 VarFlow
 
 > Reproducible genome assembly and variant calling pipeline.
 
@@ -73,43 +73,43 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 </a>
 <td width="350">
 
-### 🧬 LabFlow
+### 🤖 LabFlow
 
-> Automation toolkit for laboratory and computational workflows
+> AI-powered laboratory administration platform that automates scheduling, administrative requests, and researcher workflows.
 
 **Highlights**
 
-- Genome Assembly
-- Variant Calling
-- Gene Annotation
-- Comparative Genomics
+- Equipment reservation management
+- AI-assisted request processing
+- Automated email generation
+- Laboratory workflow coordination
 
 **Stack**
 
-`Python` `Bash`
+`Python` `FastAPI` `PostgreSQL` `AI`
 
-<a href="https://github.com/...">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
+<a href="https://github.com/marcos-Nieves-24/labflow">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=labflow&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
 </a>
 <td width="350">
 
-### 🧬 Genome Variant Software
+### 🧬 BioEncrypter
 
-> Reproducible genome assembly and variant calling pipeline.
+> Open-source toolkit for protecting sensitive biological data through encryption, integrity verification, and secure sharing.
 
 **Highlights**
 
-- Genome Assembly
-- Variant Calling
-- Gene Annotation
-- Comparative Genomics
+- Biological data encryption
+- Integrity verification
+- Secure file packaging
+- Privacy-focused CLI
 
 **Stack**
 
-`Python` `Bash`
+`Python` `Cryptography` `Typer`
 
-<a href="https://github.com/...">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=genome-variant-software&theme=chartreuse-dark&hide_border=true"/>
+<a href="https://github.com/marcos-Nieves-24/bioencrypter">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcos-Nieves-24&repo=bioencrypter&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
 </a>
 </tr>
 </table>
