@@ -1,117 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:000000,50:0d1b2a,100:00ffc8&height=220&section=header&text=MARCOS%20ALVAREZ&fontSize=44&fontColor=00ffc8&animation=twinkling&desc=BIO.SYS%20%2F%2F%20WETWARE%20MEETS%20SOFTWARE&descAlignY=68&descSize=16&descColor=7fffd4" width="100%"/>
-
-<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00ffc8"/></a>
-<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=00ffc8"/></a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duty=50&pause=800&color=00FFC8&background=00000000&center=true&vCenter=true&width=650&lines=%3E+booting+bio_systems.exe...;%3E+compiling+genome_pipelines...;%3E+status%3A+biotech+student+%7C+builder;%3E+decoding+DNA+one+repo+at+a+time" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=blur&color=0:1f2a24,100:2d4a3e&height=180&section=header&text=Marcos%20Alvarez&fontSize=38&fontColor=ffffff&desc=Biotech%20Student%20%7C%20Bioinformatics%20%2B%20Machine%20Learning&descAlignY=62&descColor=cfe8d8" width="100%"/>
 
 </div>
 
-<br/>
+## 👋 Hi There
 
-```
-┌──────────────────────────────────────────────────┐
-│  SYSTEM BOOT LOG                                  │
-├──────────────────────────────────────────────────┤
-│  [OK] wetware_module ......... biotech student    │
-│  [OK] compute_module ......... ML + bioinformatics│
-│  [OK] automation_module ...... agents / IoT        │
-│  [OK] location ............... Medellín, CO        │
-│  [ .. ] uptime ............... still learning      │
-└──────────────────────────────────────────────────┘
-```
+I'm Marcos, a biotech student based in Medellín, Colombia, building software at the intersection of **genomics, machine learning, and automation**.
 
-<br/>
+- 🧬 Currently building reproducible bioinformatics pipelines (genome assembly, variant calling, RNA-seq)
+- 🤖 Learning machine learning through hands-on projects rather than passive courses
+- 🛠️ Exploring lab/IT automation, including AI agent tooling
+- 🎯 Looking for internship/entry-level opportunities where biology and software overlap
 
-## ⚡ IDENTITY.exe
+## 📚 Projects
 
-I'm a biotech student engineering the overlap between **genomics, machine learning, and automation.** Think of it as running two operating systems at once — biological and digital — and writing the interface between them.
+| Repository | Description | Stack |
+|---|---|---|
+| [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software) | Reproducible pipeline for CFTR genome assembly, variant calling, comparison & gene annotation | Python, Bash |
+| [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | End-to-end RNA-seq pipeline for functional transcript analysis & RNAi candidate discovery | Python |
+| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Hands-on machine learning projects and notebooks | Jupyter, Python |
+| [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI agent that automates desk & file organization | Python |
 
-```python
-class Marcos(BiotechUnit):
-    stack = ["Python", "Bash", "Genomics", "ML"]
-    mission = "turn raw biological signal into working software"
+## 🎓 Education
 
-    def status(self):
-        return "🟢 ONLINE — building, not just studying"
-```
+- B.S. Biotechnology (in progress) — Colombia
 
-<br/>
-
-## 🧬 ACTIVE PROCESSES // Featured Builds
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**⟩⟩ genome-variant-software**
-`[GENOMICS] [PIPELINE]`
-CFTR genome assembly → variant calling → annotation. Fully reproducible.
-[→ open_repo](https://github.com/marcos-Nieves-24/genome-variant-software)
-
-</td>
-<td width="50%" valign="top">
-
-**⟩⟩ rna-seq-to-rnai-pipeline**
-`[TRANSCRIPTOMICS] [RNAi]`
-End-to-end RNA-seq → functional transcript analysis → RNAi candidate discovery.
-[→ open_repo](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**⟩⟩ ml-bootcamp**
-`[MACHINE LEARNING]`
-Live-fire ML experiments — models trained by building, not just watching tutorials.
-[→ open_repo](https://github.com/marcos-Nieves-24/ml-bootcamp)
-
-</td>
-<td width="50%" valign="top">
-
-**⟩⟩ autonomous-desk-organizer**
-`[AI AGENT] [AUTOMATION]`
-An autonomous agent that manages desk/file order without being asked twice.
-[→ open_repo](https://github.com/marcos-Nieves-24/autonomous-desk-organizer)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 🛰️ TECH_STACK.json
+## 🧰 Technologies I Use
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux" />
 </div>
 
-<br/>
-
-## 📡 LIVE TELEMETRY
+## 🔗 Socials
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000&title_color=00ffc8&icon_color=00ffc8&text_color=7fffd4" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=nightowl&hide_border=true&background=00000000&ring=00ffc8&fire=00ffc8&currStreakLabel=7fffd4" width="48%"/>
-</div>
-
-<br/>
-
-## 📶 UPLINK
-
-```
-> contact --email uni.biotec.24@gmail.com
-> contact --linkedin marcos-alvarez-362b721a8
-> connection established. awaiting collaboration request...
-```
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:00ffc8,50:0d1b2a,100:000000&height=100&section=footer" width="100%"/>
+<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
