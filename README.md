@@ -52,7 +52,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 <td width="350">
 
-### <a href="https://github.com/marcos-Nieves-24/VarFlow">🧬 VarFlow</a>
+### <a href="https://github.com/marcos-Nieves-24/VarFlow"> 🧬 VarFlow </a>
 
 > Reproducible genome assembly and variant calling pipeline.
 
