@@ -1,45 +1,102 @@
-<h1 align="center">Hi, I'm Marcos 👋</h1>
-<h3 align="center">Biotech student building at the intersection of bioinformatics, ML, and software</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"></a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=220&section=header&text=Marcos%20Alvarez&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Biotech%20%C3%97%20Bioinformatics%20%C3%97%20Machine%20Learning&descAlign=50&descAlignY=65" width="100%"/>
 
----
+<a href="https://linkedin.com/in/marcos-alvarez-362b721a8">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:uni.biotec.24@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-### 🔬 About me
+<br/><br/>
 
-I'm a biotech student in Medellín, Colombia, learning to build real software instead of just running other people's tools. I'm most interested in the point where **genomics, machine learning, and automation** meet — pipelines that turn raw sequencing data into answers, and small AI-driven tools that remove friction from lab and research work.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Turning+sequencing+data+into+answers;Building+ML+tools+for+biology;Biotech+student+%7C+Self-taught+builder;From+CFTR+variant+calling+to+AI+agents" alt="Typing SVG" />
+</a>
 
-- 🧬 Currently building pipelines for genome assembly, variant calling, and RNA-seq analysis
-- 🤖 Learning ML through project-based work rather than courses alone
-- 🛠️ Exploring lab/IT automation — from CLI tools to AI agents
-- 🌱 Background: biotech coursework + self-taught Python, moving from beginner scripts toward reproducible, documented pipelines
+</div>
 
----
+<br/>
 
-### 📌 Featured projects
+## 🧬 About Me
 
-| Project | What it does |
-|---|---|
-| 🧬 [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software) | Reproducible bioinformatics pipeline for CFTR genome assembly, variant calling, comparison, and gene annotation (Python + Bash) |
-| 🧫 [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | End-to-end RNA-seq pipeline for functional transcript analysis and RNAi candidate discovery |
-| 📊 [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Notebooks and projects from hands-on machine learning practice |
-| 🖥️ [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI agent that automates desk/file organization |
+I'm a biotech student in Medellín, Colombia, working at the point where **genomics, machine learning, and software** overlap. Most of what I build starts with a real question from my coursework or lab work — then gets turned into an actual pipeline or tool instead of a one-off script.
 
----
+```python
+class Marcos:
+    def __init__(self):
+        self.role = "Biotech Student"
+        self.focus = ["Bioinformatics", "Machine Learning", "Lab Automation"]
+        self.currently_building = "Reproducible genomics pipelines"
+        self.philosophy = "Project-based learning > passive courses"
 
-### 🧰 Tech I work with
+    def say_hi(self):
+        return "Always open to collaborate on bio + ML projects 🔬"
+```
 
-**Languages:** Python, Bash, Shell
-**Bioinformatics:** Sequence/variant analysis, RNA-seq workflows, gene annotation
-**ML/Data:** Jupyter, pandas, data pipelines
-**Tools:** Git, GitHub, MIT-licensed open project workflows
+<br/>
 
----
+## 🔭 Featured Work
 
-### 📫 Reach me
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Email: uni.biotec.24@gmail.com
-- LinkedIn: [marcos-alvarez-362b721a8](https://linkedin.com/in/marcos-alvarez-362b721a8)
+### 🧬 [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software)
+Reproducible bioinformatics pipeline for **CFTR genome assembly, variant calling, comparison, and gene annotation**.
+
+`Python` `Bash` `Genomics`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧫 [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline)
+End-to-end RNA-seq pipeline for **functional transcript analysis and RNAi candidate discovery**.
+
+`Python` `RNA-seq` `Bioinformatics`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp)
+Hands-on machine learning projects and notebooks — learning by building, not just following tutorials.
+
+`Jupyter` `Python` `ML`
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer)
+An AI agent that automates desk and file organization.
+
+`Python` `AI Agents` `Automation`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🧰 Tech Stack
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux&theme=dark" />
+</div>
+
+<br/>
+
+## 📈 GitHub Stats
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=2E9EF7&icon_color=2E9EF7" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=dark&hide_border=true&background=0d1117&ring=2E9EF7&fire=2E9EF7" width="48%"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
+</div>
