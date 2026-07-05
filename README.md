@@ -29,10 +29,10 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 | Project | What it Does | Technologies |
 |----------|--------------|--------------|
-| genome-variant-software | Reproducible genome assembly, variant calling, comparative analysis, and annotation pipeline | Python • Bash |
-| rna-seq-to-rnai-pipeline | Automated RNA-seq workflow for transcriptome analysis and RNAi target discovery | Python |
-| ml-bootcamp | Machine learning implementations and experiments focused on biological datasets | Python • Jupyter |
-| autonomous-desk-organizer | AI-powered automation agent for organizing digital workspaces | Python |
+| [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software) | Reproducible genome assembly, variant calling, comparative analysis, and annotation pipeline | Python • Bash |
+| [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | Automated RNA-seq workflow for transcriptome analysis and RNAi target discovery | Python |
+| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Machine learning implementations and experiments focused on biological datasets | Python • Jupyter |
+| [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI-powered automation agent for organizing digital workspaces | Python |
 
 ## 🔬 Research Experience
 
@@ -40,6 +40,7 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 - International Research Internship in Mexico focused on biosurfactant and bioprocess optimization
 - Experience in genomic analysis of prokaryotes, enzymatic hydrolysis, and biomass valorization
 - International conference presenter in biotechnology research
+  
 ## 🛰️ Technical Toolkit
 
 <div align="center">
@@ -48,28 +49,14 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 </div>
 
-### Currently Working With
-
-- Python
-- Bash
-- Linux
-- Git
-- GitHub
-- Jupyter Notebook
-- Bioinformatics workflows
-- Genome assembly
-- Variant calling
-- RNA-seq analysis
-
 ## 🤝 Let's Connect
 
-I'm always interested in collaborating on projects involving
+I'm always interested in collaborating on projects involving:
 
-- Bioinformatics
-- Computational Biology
-- Genomics
-- Scientific Software
-- Workflow Automation
+• Genomics & Transcriptomics
+• Bioinformatics
+• Machine Learning
+• Automatization
 
 <div align="center">
 
