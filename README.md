@@ -1,64 +1,80 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1b2a,50:14532d,100:00e0a4&height=180&section=header&text=Marcos%20Alvarez&fontSize=38&fontColor=ffffff&desc=Biotech%20Student%20%7C%20Bioinformatics%20%7C%20Machine%20Learning&descAlignY=62&descColor=b8f2de" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1b2a,50:14532d,100:00e0a4&height=180&section=header&text=Marcos%20Alvarez&fontSize=40&fontColor=ffffff&desc=Building%20Software%20for%20Biology&descAlignY=63&descColor=b8f2de" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=00E0A4&background=00000000&center=true&vCenter=true&width=600&lines=engineering+biology+throught+software;genomics+%C3%97+machine+learning+%C3%97+automation;building%2C+not+just+studying" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1300&color=00E0A4&center=true&vCenter=true&width=720&lines=engineering+reproducible+bioinformatics+workflows;genomics+%C3%97+software+engineering;automation+for+computational+biology;open-source+tools+for+life+sciences" />
 
 </div>
 
-## 🧬 Hi There
+## 🧬 About Me
 
-I'm Marcos, a Biotechnology student at Institución Universitaria Colegio Mayor de Antioquia in Medellín, Colombia, focused on building software at the intersection of **genomics, machine learning, and automation**.
+I'm Marcos, a Biotechnology undergraduate from Medellín, Colombia, building software for biological research.
 
-- 🧬 Currently building my bioinformatic skills on Genomics, Transcriptomics, and ML engineering
-- 🤖 Learning machine learning through hands-on projects rather than passive courses
-- 🛠️ Exploring laboratory workflow automation and AI-assisted tooling.
-- 🎯 Seeking internship/entry-level opportunities where biology and software overlap
+My work focuses on developing reproducible bioinformatics workflows, automating computational analyses, and applying software engineering principles to genomics and life science research.
 
-## 🧫 Projects
+Currently, I'm expanding my toolkit in machine learning while contributing to research projects involving genomics, transcriptomics, and laboratory automation.
 
-| Repository | Description | Stack |
-|---|---|---|
-| [genome-variant-software](https://github.com/marcos-Nieves-24/genome-variant-software) | CLI application for genome assembly, variant calling, comparison & gene annotation | Python, Bash |
-| [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | End-to-end RNA-seq pipeline for functional transcript analysis & RNAi candidate discovery | Python |
-| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Hands-on machine learning projects and notebooks | Jupyter, Python |
-| [autonomous-desk-organizer](https://github.com/marcos-Nieves-24/autonomous-desk-organizer) | AI agent that automates desk & file organization | Python |
+- 🧬 Building reproducible pipelines for genome assembly, variant calling, and RNA-seq
+- ⚙️ Automating biological data analysis with Python and Bash
+- 🤖 Learning machine learning for biological applications
+- 🌱 Seeking internships in bioinformatics, computational biology, and biotech software
 
-## 🎓 Education
-B.S. Biotechnology (Expected 2027)
-Institución Universitaria Colegio Mayor de Antioquia
-Medellín, Colombia
+## ⚙️ Engineering Philosophy
 
-Focus:
-• Genomics & Transcriptomics
-• Bioinformatics
-• Machine Learning
+I believe biological research should be reproducible, automated, and accessible.
 
-## Research Interests
+Rather than treating software as an auxiliary skill, I see it as an essential component of modern biotechnology. My goal is to build tools that help researchers spend less time managing workflows and more time answering scientific questions.
 
-- Transcriptomics
-- Functional Genomics
+## 🚀 Featured Projects
+
+| Project | What it Does | Technologies |
+|----------|--------------|--------------|
+| genome-variant-software | Reproducible genome assembly, variant calling, comparative analysis, and annotation pipeline | Python • Bash |
+| rna-seq-to-rnai-pipeline | Automated RNA-seq workflow for transcriptome analysis and RNAi target discovery | Python |
+| ml-bootcamp | Machine learning implementations and experiments focused on biological datasets | Python • Jupyter |
+| autonomous-desk-organizer | AI-powered automation agent for organizing digital workspaces | Python |
+
+## 🔬 Research Experience
+
+- Research Student working on sustainable bioplastic production from lignocellulosic biomass
+- International Research Internship in Mexico focused on biosurfactant and bioprocess optimization
+- Experience in genomic analysis of prokaryotes, enzymatic hydrolysis, and biomass valorization
+- International conference presenter in biotechnology research
+## 🛰️ Technical Toolkit
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,bash,linux,git,github,jupyter&theme=dark"/>
+
+</div>
+
+### Currently Working With
+
+- Python
+- Bash
+- Linux
+- Git
+- GitHub
+- Jupyter Notebook
+- Bioinformatics workflows
+- Genome assembly
+- Variant calling
+- RNA-seq analysis
+
+## 🤝 Let's Connect
+
+I'm always interested in collaborating on projects involving
+
+- Bioinformatics
 - Computational Biology
-- Machine Learning for Omics
-- Laboratory Automation
-- Open Science
-
-## 📡 Activity Feed
+- Genomics
+- Scientific Software
+- Workflow Automation
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000&title_color=00e0a4&icon_color=00e0a4&text_color=b8f2de" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=nightowl&hide_border=true&background=00000000&ring=00e0a4&fire=00e0a4&currStreakLabel=b8f2de" width="48%"/>
-</div>
 
-## 🛰️ Tools & Technologies 
+[LinkedIn Badge]
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,git,github,linux,anaconda&theme=dark" />
-</div>
+[Email Badge]
 
-## 🔗 Socials
-
-<div align="center">
-<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
