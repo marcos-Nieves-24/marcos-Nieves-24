@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=blur&color=0:1f2a24,100:2d4a3e&height=180&section=header&text=Marcos%20Alvarez&fontSize=38&fontColor=ffffff&desc=Biotech%20Student%20%7C%20Bioinformatics%20%2B%20Machine%20Learning&descAlignY=62&descColor=cfe8d8" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1b2a,50:14532d,100:00e0a4&height=180&section=header&text=Marcos%20Alvarez&fontSize=38&fontColor=ffffff&desc=Biotech%20Student%20%7C%20Bioinformatics%20%2B%20Machine%20Learning&descAlignY=62&descColor=b8f2de" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=00E0A4&background=00000000&center=true&vCenter=true&width=600&lines=engineering+the+overlap+of+biology+%2B+software;genomics+%C3%97+machine+learning+%C3%97+automation;building%2C+not+just+studying" alt="Typing SVG" />
 
 </div>
 
-## 👋 Hi There
+## 🧬 Hi There
 
 I'm Marcos, a biotech student based in Medellín, Colombia, building software at the intersection of **genomics, machine learning, and automation**.
 
@@ -13,7 +15,15 @@ I'm Marcos, a biotech student based in Medellín, Colombia, building software at
 - 🛠️ Exploring lab/IT automation, including AI agent tooling
 - 🎯 Looking for internship/entry-level opportunities where biology and software overlap
 
-## 📚 Projects
+<div align="center">
+
+```
+◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇──◇
+```
+
+</div>
+
+## 🧫 Projects
 
 | Repository | Description | Stack |
 |---|---|---|
@@ -26,10 +36,17 @@ I'm Marcos, a biotech student based in Medellín, Colombia, building software at
 
 - B.S. Biotechnology (in progress) — Colombia
 
-## 🧰 Technologies I Use
+## 📡 Activity Feed
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux" />
+<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000&title_color=00e0a4&icon_color=00e0a4&text_color=b8f2de" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=marcos-Nieves-24&theme=nightowl&hide_border=true&background=00000000&ring=00e0a4&fire=00e0a4&currStreakLabel=b8f2de" width="48%"/>
+</div>
+
+## 🛰️ Technologies I Use
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,bash,git,github,jupyter,linux&theme=dark" />
 </div>
 
 ## 🔗 Socials
