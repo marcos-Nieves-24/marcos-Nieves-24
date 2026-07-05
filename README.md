@@ -73,18 +73,18 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 ### <a href="https://github.com/marcos-Nieves-24/LabFlow"> 🤖 LabFlow </a>
 
-> AI-powered laboratory administration platform.
+> AI-powered platform for laboratory administration and workflow automation.
 
 **Highlights**
 
-- Equipment reservation management
-- AI-assisted request processing
-- Automated email generation
-- Laboratory workflow coordination
+- Equipment scheduling
+- AI request processing
+- Email automation
+- Workflow coordination
 
 **Stack**
 
-`Python` `FastAPI` `PostgreSQL` `AI`
+`Python` `FastAPI` `PostgreSQL`
 
 </td>
 
