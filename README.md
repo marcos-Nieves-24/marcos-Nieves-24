@@ -33,9 +33,9 @@ Rather than treating software as an auxiliary skill, I see it as an essential co
 
 <td width="350">
   
-### <a href="https://github.com/marcos-Nieves-24/ml-bootcamp">🤖 ML Bootcamp</a>
+### <a href="https://github.com/marcos-Nieves-24/InVitro-Code">🤖 <a>Invitro-Code</a>
 
-> An introduction to ML for biological data analysis and SaaS
+> A platform made for biotechnologist and life scientist to learn Machine Learning fundamentals
 
 **Highlights**
 
