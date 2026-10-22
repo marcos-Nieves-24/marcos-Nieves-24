@@ -16,6 +16,7 @@ My work sits at the intersection of **machine learning, edge computing and life 
 - 🧬 Reproducible bioinformatics — RNA-seq processing, de novo assembly, differential expression, prokaryote genomics
 - ⚙️ Software engineering — Docker, clean/hexagonal architecture, typed services, automated test suites, CI/CD
 - 🌍 Applied ML — statistical analysis of bioassay data, factorial experimental design, dose–response modelling
+- 🎓 Curriculum design — a 5-module AI/ML bootcamp in Spanish, with datasets, case studies, exams and full course documentation
 
 ## 🔬 Research Experience
 
@@ -102,6 +103,7 @@ My work sits at the intersection of **machine learning, edge computing and life 
 
 | Project | What it is | Stack |
 |---|---|---|
+| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Full AI/ML bootcamp curriculum in Spanish — 5 modules (AI, Python, Statistics, Machine Learning, Ethics) with case studies, exams, datasets and complete course documentation | `Python` `Jupyter` `Markdown` |
 | [Machine Learning Zoomcamp](https://github.com/marcos-Nieves-24/machine-learning-zoomcamp) | DataTalksClub exercises: regression, ensembles and reproducible model pipelines | `Python` `scikit-learn` `Jupyter` |
 | [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | FASTQ → QC → alignment → quantification → differential expression → RNAi candidate ranking *(in development)* | `Python` `Bash` |
 | [virtual-bioprocess-iot](https://github.com/marcos-Nieves-24/virtual-bioprocess-iot) | Virtual fermentation simulator: growth kinetics, PID control, sensors and actuators | `C++` `CMake` `NumPy` `SciPy` |
