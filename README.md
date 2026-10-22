@@ -43,6 +43,7 @@ My work sits at the intersection of **machine learning, edge computing and life 
 ### <a href="https://github.com/marcos-Nieves-24/InVitro-Code">🤖 InVitro-Code</a>
 
 > Web platform that teaches AI/ML to biotechnology students through lessons, quizzes and in-browser Python labs.
+> **Live at [invitro-code.vercel.app](https://invitro-code.vercel.app)**
 
 **Highlights**
 
