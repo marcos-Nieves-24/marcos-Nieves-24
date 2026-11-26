@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28" shape-rendering="crispEdges" role="img" aria-labelledby="title desc">
+<title id="title">Pixel-art button: LINKEDIN</title>
+<desc id="desc">Pixel-art navigation button labeled LINKEDIN.</desc>
+<rect x="0" y="0" width="120" height="28" fill="#070a12"/>
+<rect x="2" y="2" width="116" height="24" fill="#111126"/>
+<rect x="2" y="2" width="116" height="3" fill="#56d9e8"/>
+<rect x="2" y="23" width="116" height="3" fill="#56d9e8"/>
+<rect x="11" y="8" width="3" height="1" fill="#63e38a"/>
+<rect x="10" y="9" width="1" height="1" fill="#63e38a"/>
+<rect x="11" y="9" width="3" height="1" fill="#b7ff6b"/>
+<rect x="14" y="9" width="1" height="1" fill="#63e38a"/>
+<rect x="9" y="10" width="1" height="1" fill="#63e38a"/>
+<rect x="10" y="10" width="2" height="1" fill="#b7ff6b"/>
+<rect x="13" y="10" width="1" height="1" fill="#b7ff6b"/>
+<rect x="14" y="10" width="1" height="1" fill="#63e38a"/>
+<rect x="8" y="11" width="1" height="1" fill="#63e38a"/>
+<rect x="9" y="11" width="2" height="1" fill="#b7ff6b"/>
+<rect x="11" y="11" width="1" height="1" fill="#63e38a"/>
+<rect x="13" y="11" width="1" height="1" fill="#b7ff6b"/>
+<rect x="14" y="11" width="2" height="1" fill="#63e38a"/>
+<rect x="8" y="12" width="1" height="1" fill="#63e38a"/>
+<rect x="9" y="12" width="1" height="1" fill="#b7ff6b"/>
+<rect x="10" y="12" width="1" height="1" fill="#63e38a"/>
+<rect x="14" y="12" width="2" height="1" fill="#63e38a"/>
+<rect x="8" y="13" width="3" height="1" fill="#63e38a"/>
+<rect x="14" y="13" width="2" height="1" fill="#63e38a"/>
+<rect x="9" y="14" width="2" height="1" fill="#63e38a"/>
+<rect x="14" y="14" width="2" height="1" fill="#63e38a"/>
+<path d="M28 11h1v1h-1zM28 12h1v1h-1zM28 13h1v1h-1zM28 14h1v1h-1zM28 15h1v1h-1zM28 16h1v1h-1zM28 17h5v1h-5zM34 11h5v1h-5zM36 12h1v1h-1zM36 13h1v1h-1zM36 14h1v1h-1zM36 15h1v1h-1zM36 16h1v1h-1zM34 17h5v1h-5zM40 11h1v1h-1zM44 11h1v1h-1zM40 12h2v1h-2zM44 12h1v1h-1zM40 13h2v1h-2zM44 13h1v1h-1zM40 14h1v1h-1zM42 14h1v1h-1zM44 14h1v1h-1zM40 15h1v1h-1zM43 15h2v1h-2zM40 16h1v1h-1zM43 16h2v1h-2zM40 17h1v1h-1zM44 17h1v1h-1zM46 11h1v1h-1zM50 11h1v1h-1zM46 12h1v1h-1zM49 12h1v1h-1zM46 13h1v1h-1zM48 13h1v1h-1zM46 14h2v1h-2zM46 15h1v1h-1zM48 15h1v1h-1zM46 16h1v1h-1zM49 16h1v1h-1zM46 17h1v1h-1zM50 17h1v1h-1zM52 11h5v1h-5zM52 12h1v1h-1zM52 13h1v1h-1zM52 14h4v1h-4zM52 15h1v1h-1zM52 16h1v1h-1zM52 17h5v1h-5zM58 11h4v1h-4zM58 12h1v1h-1zM62 12h1v1h-1zM58 13h1v1h-1zM62 13h1v1h-1zM58 14h1v1h-1zM62 14h1v1h-1zM58 15h1v1h-1zM62 15h1v1h-1zM58 16h1v1h-1zM62 16h1v1h-1zM58 17h4v1h-4zM64 11h5v1h-5zM66 12h1v1h-1zM66 13h1v1h-1zM66 14h1v1h-1zM66 15h1v1h-1zM66 16h1v1h-1zM64 17h5v1h-5zM70 11h1v1h-1zM74 11h1v1h-1zM70 12h2v1h-2zM74 12h1v1h-1zM70 13h2v1h-2zM74 13h1v1h-1zM70 14h1v1h-1zM72 14h1v1h-1zM74 14h1v1h-1zM70 15h1v1h-1zM73 15h2v1h-2zM70 16h1v1h-1zM73 16h2v1h-2zM70 17h1v1h-1zM74 17h1v1h-1z" fill="#e8fff1"/>
+</svg>
