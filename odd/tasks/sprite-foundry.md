@@ -28,7 +28,7 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - T4 — Add the project `sprite-pipeline` skill and register the workflow in repository guidance. Route: inline. Status: completed.
 - T5 — Harden export execution with portable temporary storage, subprocess timeouts and atomic rollback. Route: inline. Status: completed.
 - T6 — Harden manifest, atlas, proof and CLI failure handling. Route: inline. Status: completed.
-- T7 — Re-run full verification, review and commit the hardening slice. Route: inline. Status: pending.
+- T7 — Re-run full verification, review and commit the hardening slice. Route: inline. Status: completed.
 
 ## Log
 
@@ -43,3 +43,4 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - L9 — Isolated Gentle AI build `423d90a` fixed the OpenCode relay. `R4-verify-proof-on-failure` was corrected with observed RED to GREEN; 7/7 tests passed. Lineage `review-e09561fcec56f698` was acknowledged and commit `5ebe884` created.
 - L10 — Committed-only lineage `review-4a962e591f3f842b` was approved and acknowledged. Its non-blocking resilience, reliability and readability advisories define the T5-T6 hardening scope.
 - L11 — T5-T6 implemented with observed RED to GREEN. Full suite 19/19, doctor and `verify.py --all --check-only` pass. Differential checks for doctor, verify, export and contact-sheet match commit `5ebe884`; all seven generated artifacts are byte-identical.
+- L12 — Hardening committed as `d048ab3`. Lineage `review-5feb369f3acb4a9d` was approved and acknowledged. Non-blocking follow-ups remain: exercise rollback when a target did not previously exist, and reject malformed atlas frame entries with `SpriteError`.
