@@ -1,0 +1,67 @@
+GIMP Palette
+Name: Hongo Circuito
+Columns: 16
+#
+  5   6  17 Void
+  9  11  28 Background
+ 13  16  38 Background mid
+ 18  22  50 Background high
+ 11  26  46 PCB deep
+ 16  42  67 PCB shadow
+ 23  60  85 PCB mid
+ 31  83 102 PCB light
+ 43 114 128 PCB edge
+ 58 154 154 PCB rim
+  7  63  92 Cyan deep
+ 10  95 120 Cyan shadow
+ 15 130 149 Cyan mid
+ 18 168 184 Cyan base
+ 50 201 210 Cyan light
+124 232 229 Cyan highlight
+197 255 255 Cyan core
+ 22  13  43 Purple deep
+ 36  21  63 Purple shadow
+ 57  32  92 Purple base dark
+ 77  39 117 Purple base
+103  48 143 Purple light
+125  58 168 Purple highlight
+149  72 194 Purple high
+180  91 219 Purple brightest
+ 74  22  63 Magenta deep
+110  31  92 Magenta shadow
+138  35  92 Magenta dark
+169  43 120 Magenta base
+211  53 152 Magenta mid
+237  79 181 Magenta light
+255 115 210 Magenta highlight
+255 209 244 Magenta core
+ 63  29  50 Orange deep
+107  42  63 Orange shadow
+145  54  67 Orange dark
+179  74  60 Orange base
+217  97  53 Orange mid
+233 120  47 Orange light
+242 138  58 Orange high
+255 155  61 Orange brightest
+255 181  92 Orange glow
+255 210 122 Orange core
+255 231 173 Orange white
+ 42  23  56 Root deep
+ 74  35  64 Root shadow
+109  40  86 Root dark
+145  53 110 Root base
+183  68 134 Root mid
+217  90 158 Root light
+239 106 160 Root highlight
+255 176 214 Root core
+ 74  47  34 Gold deep
+110  67  38 Gold shadow
+138  87  43 Gold dark
+184 122  46 Gold base
+214 154  58 Gold mid
+242 193  78 Gold light
+255 224 138 Gold core
+ 26  33  64 Chip body
+ 45  54  92 Chip mid
+ 69  77 120 Chip edge
+244 231 197 Silkscreen

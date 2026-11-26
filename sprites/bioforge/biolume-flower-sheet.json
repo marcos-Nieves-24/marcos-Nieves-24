@@ -1,0 +1,79 @@
+{ "frames": [
+   {
+    "filename": "biolume-flower #sway 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 180
+   },
+   {
+    "filename": "biolume-flower #sway 1.aseprite",
+    "frame": { "x": 66, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 120
+   },
+   {
+    "filename": "biolume-flower #sway 2.aseprite",
+    "frame": { "x": 132, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 120
+   },
+   {
+    "filename": "biolume-flower #sway 3.aseprite",
+    "frame": { "x": 198, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 180
+   },
+   {
+    "filename": "biolume-flower #sway 4.aseprite",
+    "frame": { "x": 264, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 120
+   },
+   {
+    "filename": "biolume-flower #sway 5.aseprite",
+    "frame": { "x": 330, "y": 0, "w": 66, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 96 },
+    "sourceSize": { "w": 64, "h": 96 },
+    "duration": 120
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "biolume-flower-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 396, "h": 98 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "sway", "from": 0, "to": 5, "direction": "forward", "color": "#b7ff6bff" }
+  ],
+  "layers": [
+   { "name": "roots", "opacity": 255, "blendMode": "normal" },
+   { "name": "stem", "opacity": 255, "blendMode": "normal" },
+   { "name": "leaves", "opacity": 255, "blendMode": "normal" },
+   { "name": "petals-back", "opacity": 255, "blendMode": "normal" },
+   { "name": "petals-front", "opacity": 255, "blendMode": "normal" },
+   { "name": "core", "opacity": 255, "blendMode": "normal" },
+   { "name": "glow", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

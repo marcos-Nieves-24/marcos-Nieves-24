@@ -1,0 +1,99 @@
+{ "frames": [
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 170
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 1.aseprite",
+    "frame": { "x": 98, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 120
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 2.aseprite",
+    "frame": { "x": 196, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 100
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 3.aseprite",
+    "frame": { "x": 294, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 130
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 4.aseprite",
+    "frame": { "x": 392, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 180
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 5.aseprite",
+    "frame": { "x": 490, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 110
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 6.aseprite",
+    "frame": { "x": 588, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 100
+   },
+   {
+    "filename": "myco-circuit-v2 #charge-cycle 7.aseprite",
+    "frame": { "x": 686, "y": 0, "w": 98, "h": 98 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 96, "h": 96 },
+    "sourceSize": { "w": 96, "h": 96 },
+    "duration": 140
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "myco-circuit-v2-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 784, "h": 98 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "charge-cycle", "from": 0, "to": 7, "direction": "forward", "color": "#0aa6c2ff" }
+  ],
+  "layers": [
+   { "name": "shadow", "opacity": 255, "blendMode": "normal" },
+   { "name": "pcb", "opacity": 255, "blendMode": "normal" },
+   { "name": "traces", "opacity": 255, "blendMode": "normal" },
+   { "name": "roots", "opacity": 255, "blendMode": "normal" },
+   { "name": "stem", "opacity": 255, "blendMode": "normal" },
+   { "name": "gills", "opacity": 255, "blendMode": "normal" },
+   { "name": "cap", "opacity": 255, "blendMode": "normal" },
+   { "name": "details", "opacity": 255, "blendMode": "normal" },
+   { "name": "energy", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

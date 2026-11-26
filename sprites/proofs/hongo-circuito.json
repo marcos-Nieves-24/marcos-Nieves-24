@@ -1,0 +1,16 @@
+{
+  "asset": "hongo-circuito",
+  "status": "prototype",
+  "checked_at": "2026-11-26T21:25:23.005077+00:00",
+  "result": "pass",
+  "findings": [],
+  "files": {
+    "sprites/source/pcb-mushroom/hongo-circuito/hongo-circuito.aseprite": "5aa0c4c1bb58cc621fc06af048438dbc9920ab9b9625ffef6c9327f1bc322fe1",
+    "sprites/source/pcb-mushroom/hongo-circuito/SPEC.md": "c12cc54d35a4a0a97021feaf15545f00e8fabce4ca2117f6e3b68e25368c2bac",
+    "sprites/palettes/hongo-circuito.gpl": "85f0c8c2f16d36657474c35591e1059afcca44c2cd84804fa58df895c1e15d2b",
+    "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito.png": "b7eb439777a37fe90edb2a5c98164d0d0c7e52c03ad8e617f7db5f2cae6359b7",
+    "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito.gif": "6036e669297d9cd542406917008d2f9134e94c412ca344da88e87df6c969f62a",
+    "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito-sheet.png": "f00f16df019e08aadb805c506f047f890b819fa86082192bf40ad3799c09d627",
+    "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito-sheet.json": "635859c361de2ed1d3437040271bdb85f46f97dd206e54db245e914bcb251fda"
+  }
+}
