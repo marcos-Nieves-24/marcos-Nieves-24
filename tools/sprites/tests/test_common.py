@@ -13,6 +13,22 @@ sys.path.insert(0, str(TOOLS))
 from common import load_manifest, parse_gpl, validate_atlas_data, validate_export_pixels  # noqa: E402
 
 
+def manifest_asset(asset_id: str) -> dict:
+    return {
+        "id": asset_id,
+        "status": "prototype",
+        "source": "source.aseprite",
+        "spec": "SPEC.md",
+        "palette": "palette.gpl",
+        "max_colors": 8,
+        "preview_scale": 1,
+        "native": {"width": 2, "height": 2},
+        "required_layers": ["Sprite"],
+        "animation_tags": ["idle"],
+        "exports": {"png": "asset.png", "gif": "asset.gif", "sheet": "sheet.png", "atlas": "sheet.json"},
+    }
+
+
 class GplTests(unittest.TestCase):
     def test_parse_gpl_counts_unique_colours(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -32,7 +48,7 @@ class ManifestTests(unittest.TestCase):
     def test_duplicate_asset_ids_are_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "manifest.json"
-            path.write_text(json.dumps({"schema_version": 1, "assets": [{"id": "a", "status": "prototype"}, {"id": "a", "status": "review"}]}), encoding="utf-8")
+            path.write_text(json.dumps({"schema_version": 1, "assets": [manifest_asset("a"), manifest_asset("a")]}), encoding="utf-8")
             with self.assertRaisesRegex(RuntimeError, "duplicate"):
                 load_manifest(path)
 
@@ -47,7 +63,7 @@ class AtlasTests(unittest.TestCase):
 
     def test_uniform_timing_and_missing_tag_fail(self):
         atlas = {
-            "meta": {"size": {"w": 10, "height": 10}, "frameTags": []},
+            "meta": {"size": {"w": 10, "h": 10}, "frameTags": []},
             "frames": [{"duration": 100}, {"duration": 100}],
         }
         errors = validate_atlas_data(atlas, {"width": 10, "height": 10}, {"width": 4, "height": 4}, ["idle"])

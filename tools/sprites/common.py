@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import shutil
 import subprocess
 import tempfile
@@ -16,6 +17,12 @@ from PIL import Image
 REPO_ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = REPO_ROOT / "sprites" / "manifest.json"
 ALLOWED_STATUSES = {"concept", "prototype", "review", "approved", "rejected"}
+REQUIRED_ASSET_FIELDS = {
+    "id", "status", "source", "spec", "palette", "max_colors", "preview_scale",
+    "native", "required_layers", "animation_tags", "exports",
+}
+REQUIRED_EXPORTS = {"png", "gif", "sheet", "atlas"}
+COMMAND_TIMEOUT_SECONDS = 120
 
 
 class SpriteError(RuntimeError):
@@ -24,9 +31,18 @@ class SpriteError(RuntimeError):
 
 def run(command: list[str], *, cwd: Path = REPO_ROOT) -> subprocess.CompletedProcess[str]:
     try:
-        return subprocess.run(command, cwd=cwd, check=True, text=True, capture_output=True)
+        return subprocess.run(
+            command,
+            cwd=cwd,
+            check=True,
+            text=True,
+            capture_output=True,
+            timeout=COMMAND_TIMEOUT_SECONDS,
+        )
     except FileNotFoundError as exc:
         raise SpriteError(f"Command not found: {command[0]}") from exc
+    except subprocess.TimeoutExpired as exc:
+        raise SpriteError(f"Command timed out after {COMMAND_TIMEOUT_SECONDS}s: {' '.join(command)}") from exc
     except subprocess.CalledProcessError as exc:
         detail = (exc.stderr or exc.stdout or "").strip()
         raise SpriteError(f"Command failed: {' '.join(command)}\n{detail}") from exc
@@ -35,13 +51,55 @@ def run(command: list[str], *, cwd: Path = REPO_ROOT) -> subprocess.CompletedPro
 def load_manifest(path: Path = MANIFEST_PATH) -> dict[str, Any]:
     if not path.is_file():
         raise SpriteError(f"Manifest not found: {path}")
-    data = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise SpriteError(f"Invalid manifest JSON: {path}: {exc.msg}") from exc
+    if not isinstance(data, dict):
+        raise SpriteError("Manifest root must be an object")
     if data.get("schema_version") != 1:
         raise SpriteError("Unsupported manifest schema_version")
     assets = data.get("assets")
     if not isinstance(assets, list):
         raise SpriteError("Manifest assets must be a list")
-    ids = [asset.get("id") for asset in assets]
+    ids: list[str] = []
+    for index, asset in enumerate(assets):
+        if not isinstance(asset, dict):
+            raise SpriteError(f"Manifest asset {index} must be an object")
+        asset_id = asset.get("id")
+        if not isinstance(asset_id, str) or not asset_id.strip():
+            raise SpriteError(f"Manifest asset {index} has an invalid id")
+        missing = sorted(REQUIRED_ASSET_FIELDS - set(asset))
+        if missing:
+            raise SpriteError(f"Manifest asset {asset_id} is missing required fields: {', '.join(missing)}")
+        for field in ("source", "spec", "palette"):
+            if not isinstance(asset[field], str) or not asset[field].strip():
+                raise SpriteError(f"Manifest asset {asset_id} has an invalid {field}")
+        for field in ("max_colors", "preview_scale"):
+            value = asset[field]
+            if not isinstance(value, int) or isinstance(value, bool) or value <= 0:
+                raise SpriteError(f"Manifest asset {asset_id} has an invalid {field}")
+        native = asset["native"]
+        if not isinstance(native, dict) or any(
+            not isinstance(native.get(dimension), int)
+            or isinstance(native.get(dimension), bool)
+            or native[dimension] <= 0
+            for dimension in ("width", "height")
+        ):
+            raise SpriteError(f"Manifest asset {asset_id} has invalid native dimensions")
+        for field in ("required_layers", "animation_tags"):
+            value = asset[field]
+            if not isinstance(value, list) or not all(isinstance(item, str) and item.strip() for item in value):
+                raise SpriteError(f"Manifest asset {asset_id} has an invalid {field}")
+            if field == "animation_tags" and not value:
+                raise SpriteError(f"Manifest asset {asset_id} has no animation tags")
+        exports = asset["exports"]
+        if not isinstance(exports, dict) or any(
+            not isinstance(exports.get(name), str) or not exports[name].strip()
+            for name in REQUIRED_EXPORTS
+        ):
+            raise SpriteError(f"Manifest asset {asset_id} has invalid exports")
+        ids.append(asset_id)
     if len(ids) != len(set(ids)):
         raise SpriteError("Manifest contains duplicate asset ids")
     for asset in assets:
@@ -105,7 +163,9 @@ def image_info(path: Path) -> list[dict[str, int]]:
 
 def atlas_frames(atlas: dict[str, Any]) -> list[dict[str, Any]]:
     frames = atlas.get("frames", [])
-    return list(frames.values()) if isinstance(frames, dict) else frames
+    if isinstance(frames, dict):
+        return list(frames.values())
+    return frames if isinstance(frames, list) else []
 
 
 def validate_atlas_data(
@@ -124,7 +184,9 @@ def validate_atlas_data(
     if not frames:
         errors.append("Atlas has no frames")
     durations = [frame.get("duration") for frame in frames]
-    if len(frames) > 1 and len(set(durations)) == 1:
+    if any(not isinstance(duration, int) or isinstance(duration, bool) or duration <= 0 for duration in durations):
+        errors.append("Frame durations must be positive integers")
+    elif len(frames) > 1 and len(set(durations)) == 1:
         errors.append("Animated atlas uses uniform frame durations")
     tags = {tag.get("name") for tag in meta.get("frameTags", [])}
     missing_tags = sorted(set(required_tags) - tags)
@@ -225,11 +287,50 @@ def write_proof(repo_root: Path, asset: dict[str, Any], findings: list[dict[str,
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "result": "pass" if not findings else "fail",
         "findings": findings,
-        "files": {relative: sha256(repo_root / relative) for relative in files},
+        "files": {
+            relative: sha256(repo_root / relative) if (repo_root / relative).is_file() else None
+            for relative in files
+        },
     }
     path = proof_dir / f"{asset['id']}.json"
     path.write_text(json.dumps(proof, indent=2) + "\n", encoding="utf-8")
     return path
+
+
+def _replace_exports(pairs: list[tuple[Path, Path]], backup_dir: Path) -> None:
+    staged: list[tuple[Path, Path]] = []
+    backups: dict[Path, Path | None] = {}
+    replaced: list[Path] = []
+    try:
+        for index, (generated, target) in enumerate(pairs):
+            target.parent.mkdir(parents=True, exist_ok=True)
+            descriptor, name = tempfile.mkstemp(prefix=f".{target.name}.", suffix=".new", dir=target.parent)
+            os.close(descriptor)
+            staged_path = Path(name)
+            shutil.copy2(generated, staged_path)
+            staged.append((staged_path, target))
+            backup = backup_dir / f"backup-{index}"
+            if target.exists():
+                shutil.copy2(target, backup)
+                backups[target] = backup
+            else:
+                backups[target] = None
+        for staged_path, target in staged:
+            os.replace(staged_path, target)
+            replaced.append(target)
+    except Exception as exc:
+        for target in reversed(replaced):
+            backup = backups[target]
+            if backup is None:
+                target.unlink(missing_ok=True)
+            else:
+                shutil.copy2(backup, target)
+        if isinstance(exc, OSError):
+            raise SpriteError(f"Could not replace export files: {exc}") from exc
+        raise
+    finally:
+        for staged_path, _ in staged:
+            staged_path.unlink(missing_ok=True)
 
 
 def export_asset(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
@@ -238,7 +339,7 @@ def export_asset(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
     export_dir.mkdir(parents=True, exist_ok=True)
     scale = asset["preview_scale"]
     tag = asset["animation_tags"][0]
-    with tempfile.TemporaryDirectory(prefix="sprite-foundry-", dir="/tmp/user/1000/opencode") as temp:
+    with tempfile.TemporaryDirectory(prefix="sprite-foundry-") as temp:
         temp_dir = Path(temp)
         png = temp_dir / "preview.png"
         gif = temp_dir / "preview.gif"
@@ -250,14 +351,15 @@ def export_asset(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
             "aseprite", "-b", str(source), "--sheet", str(sheet), "--data", str(atlas),
             "--shape-padding", "1", "--border-padding", "1", "--extrude", "--list-tags", "--list-layers",
         ])
-        for generated, target in (
-            (png, repo_root / asset["exports"]["png"]),
-            (gif, repo_root / asset["exports"]["gif"]),
-            (sheet, repo_root / asset["exports"]["sheet"]),
-            (atlas, repo_root / asset["exports"]["atlas"]),
-        ):
-            shutil.copy2(generated, target)
-            generated.unlink()
+        _replace_exports(
+            [
+                (png, repo_root / asset["exports"]["png"]),
+                (gif, repo_root / asset["exports"]["gif"]),
+                (sheet, repo_root / asset["exports"]["sheet"]),
+                (atlas, repo_root / asset["exports"]["atlas"]),
+            ],
+            temp_dir,
+        )
     return {"asset": asset["id"], "exported": list(asset["exports"].values())}
 
 
@@ -266,10 +368,13 @@ def contact_sheet(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
     atlas_path = repo_root / asset["exports"]["atlas"]
     output_dir = sheet_path.parent
     atlas = json.loads(atlas_path.read_text(encoding="utf-8"))
+    frame_specs = atlas_frames(atlas)
+    if not frame_specs:
+        raise SpriteError(f"Atlas has no frames: {atlas_path}")
     frames = []
     with Image.open(sheet_path) as sheet:
         sheet = sheet.convert("RGBA")
-        for frame in atlas_frames(atlas):
+        for frame in frame_specs:
             rect = frame["frame"]
             frames.append(sheet.crop((rect["x"], rect["y"], rect["x"] + rect["w"], rect["y"] + rect["h"])))
 
