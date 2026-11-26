@@ -36,7 +36,7 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - T8 — Cover absent-target rollback and reject malformed atlas frame entries. Route: inline. Status: completed.
 - T9 — Re-run full verification, review and commit the follow-up slice. Route: inline. Status: completed.
 - T10 — Add CI-safe verification mode, regression test and GitHub Actions workflow. Route: inline. Status: completed.
-- T11 — Validate workflow syntax, run local CI commands, review and commit the CI slice. Route: inline. Status: pending.
+- T11 — Validate workflow syntax, run local CI commands, review and commit the CI slice. Route: inline. Status: completed.
 
 ## Log
 
@@ -57,3 +57,4 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - L15 — Follow-up slice committed as `1fa790a`; lineage `review-7e02d43c4a1c2fed` approved and acknowledged. New non-blocking follow-ups: validate atlas crop coordinates against sheet bounds and decouple the rollback test from global `os.replace` call order.
 - L16 — User authorized CI with “procede con CI”. Hosted CI will use an explicit `--skip-aseprite` verification mode because public Ubuntu runners do not provide Aseprite.
 - L17 — T10 implemented with observed RED to GREEN. GitHub Actions runs 22 unit tests, compilecheck, hosted asset verification and diff checks; local full verification with Aseprite also passes. Workflow YAML parses successfully.
+- L18 — CI committed as `4bef2f9`; independent verifier found no blockers and lineage `review-1b074c8d8e506c5e` was approved and acknowledged. Non-blocking follow-ups: hosted CI intentionally omits Aseprite metadata, and the skip-mode test currently verifies flag forwarding rather than the full validation branch.
