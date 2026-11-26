@@ -32,7 +32,7 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - T6 — Harden manifest, atlas, proof and CLI failure handling. Route: inline. Status: completed.
 - T7 — Re-run full verification, review and commit the hardening slice. Route: inline. Status: completed.
 - T8 — Cover absent-target rollback and reject malformed atlas frame entries. Route: inline. Status: completed.
-- T9 — Re-run full verification, review and commit the follow-up slice. Route: inline. Status: pending.
+- T9 — Re-run full verification, review and commit the follow-up slice. Route: inline. Status: completed.
 
 ## Log
 
@@ -50,3 +50,4 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - L12 — Hardening committed as `d048ab3`. Lineage `review-5feb369f3acb4a9d` was approved and acknowledged. Non-blocking follow-ups remain: exercise rollback when a target did not previously exist, and reject malformed atlas frame entries with `SpriteError`.
 - L13 — User selected “Cerrar follow-ups (Recommended)” to address both remaining non-blocking findings before delivery.
 - L14 — T8 completed: absent-target rollback is covered and malformed atlas frame entries now raise `SpriteError`. Full suite 21/21, doctor and verify pass; contact-sheet stdout, stderr, exit code and all three preview images match `c0bc25c`.
+- L15 — Follow-up slice committed as `1fa790a`; lineage `review-7e02d43c4a1c2fed` approved and acknowledged. New non-blocking follow-ups: validate atlas crop coordinates against sheet bounds and decouple the rollback test from global `os.replace` call order.
