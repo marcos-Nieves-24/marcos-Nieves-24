@@ -223,7 +223,7 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def validate_asset(repo_root: Path, asset: dict[str, Any]) -> list[dict[str, str]]:
+def validate_asset(repo_root: Path, asset: dict[str, Any], *, check_aseprite: bool = True) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
 
     def add(code: str, message: str, severity: str = "error") -> None:
@@ -241,13 +241,14 @@ def validate_asset(repo_root: Path, asset: dict[str, Any]) -> list[dict[str, str
     if len(palette) > asset["max_colors"]:
         add("palette_size", f"Palette has {len(palette)} colours; maximum is {asset['max_colors']}")
 
-    layers, tags = aseprite_metadata(repo_root / asset["source"])
-    missing_layers = sorted(set(asset["required_layers"]) - set(layers))
-    if missing_layers:
-        add("layers", f"Missing required layers: {', '.join(missing_layers)}")
-    missing_tags = sorted(set(asset["animation_tags"]) - set(tags))
-    if missing_tags:
-        add("tags", f"Missing animation tags: {', '.join(missing_tags)}")
+    if check_aseprite:
+        layers, tags = aseprite_metadata(repo_root / asset["source"])
+        missing_layers = sorted(set(asset["required_layers"]) - set(layers))
+        if missing_layers:
+            add("layers", f"Missing required layers: {', '.join(missing_layers)}")
+        missing_tags = sorted(set(asset["animation_tags"]) - set(tags))
+        if missing_tags:
+            add("tags", f"Missing animation tags: {', '.join(missing_tags)}")
 
     scale = asset["preview_scale"]
     native = asset["native"]

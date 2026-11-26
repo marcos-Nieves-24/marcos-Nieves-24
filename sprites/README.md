@@ -1,5 +1,7 @@
 # Sprite Foundry
 
+![Sprite Foundry CI](https://github.com/marcos-Nieves-24/marcos-Nieves-24/actions/workflows/sprite-pipeline.yml/badge.svg)
+
 Canonical workflow for profile sprites. Sources are editable Aseprite files; exports are generated; proofs record what was checked.
 
 ## Layout
@@ -26,9 +28,14 @@ python3 tools/sprites/verify.py hongo-circuito
 python3 tools/sprites/export.py hongo-circuito
 python3 tools/sprites/contact_sheet.py hongo-circuito
 python3 -m unittest discover -s tools/sprites/tests -v
+python3 tools/sprites/verify.py --all --check-only --skip-aseprite
 ```
 
 Run `doctor` first. Run `verify` after every source change. Run `export` only from a saved `.aseprite` source. Run `contact_sheet` after export.
+
+## CI
+
+GitHub Actions runs the unit suite, Python compile check and generated-asset verification for changes under `tools/sprites/` or `sprites/`. Hosted Ubuntu runners do not include Aseprite, so CI uses `--skip-aseprite`; this skips only source layer and tag inspection. Run `doctor` and full `verify` locally with Aseprite before release.
 
 ## Lifecycle
 

@@ -51,6 +51,18 @@ class VerifyProofTests(unittest.TestCase):
             self.assertEqual(proof["result"], "fail")
             self.assertEqual(proof["findings"], [finding])
 
+    def test_skip_aseprite_flag_skips_source_metadata(self):
+        asset = {"id": "test-asset"}
+        with (
+            patch.object(verify, "load_manifest", return_value={"assets": [asset]}),
+            patch.object(verify, "get_asset", return_value=asset),
+            patch.object(verify, "validate_asset", return_value=[]) as validate,
+            patch.object(sys, "argv", ["verify.py", "test-asset", "--check-only", "--skip-aseprite"]),
+            redirect_stdout(io.StringIO()),
+        ):
+            self.assertEqual(verify.main(), 0)
+        validate.assert_called_once_with(verify.REPO_ROOT, asset, check_aseprite=False)
+
 
 if __name__ == "__main__":
     unittest.main()
