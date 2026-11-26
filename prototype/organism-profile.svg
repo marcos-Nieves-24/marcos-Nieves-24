@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Organism profile — Marcos Alvarez</title>
+  <desc id="desc">A laboratory specimen card for Marcos Alvarez with a cultivated robot silhouette, biological cells and integrated status labels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d15"/>
+      <stop offset="0.5" stop-color="#15102a"/>
+      <stop offset="1" stop-color="#082225"/>
+    </linearGradient>
+    <radialGradient id="dish" cx="42%" cy="38%" r="65%">
+      <stop offset="0" stop-color="#5de4ff" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#9eff8a" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ff4fa3" stop-opacity="0.12"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8fff1" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5de4ff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7ff9a"/>
+      <stop offset="1" stop-color="#16a884"/>
+    </linearGradient>
+    <pattern id="microGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#5de4ff" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="noise" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="4" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.12"/></feComponentTransfer>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="520" rx="30"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="520" fill="url(#bg)"/>
+    <rect width="1200" height="520" fill="url(#microGrid)"/>
+    <rect width="1200" height="520" filter="url(#noise)" opacity="0.5"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="54" y="58" fill="#9eff8a" font-size="14" letter-spacing="4">ORGANISM PROFILE // 01</text>
+      <text x="1146" y="58" text-anchor="end" fill="#8aa7a8" font-size="12" letter-spacing="2">CULTURE ID: MN-24</text>
+      <path d="M54 78h1092" stroke="#5de4ff" stroke-opacity="0.22"/>
+    </g>
+
+    <g transform="translate(70 108)">
+      <circle cx="218" cy="176" r="172" fill="url(#dish)" stroke="#b8fff0" stroke-opacity="0.42" stroke-width="2"/>
+      <circle cx="218" cy="176" r="150" fill="none" stroke="#5de4ff" stroke-opacity="0.22" stroke-dasharray="4 10"/>
+      <circle cx="218" cy="176" r="126" fill="#071218" fill-opacity="0.36" stroke="#9eff8a" stroke-opacity="0.18"/>
+
+      <g opacity="0.55">
+        <circle cx="118" cy="112" r="18" fill="none" stroke="#5de4ff"/>
+        <circle cx="316" cy="92" r="10" fill="none" stroke="#ff4fa3"/>
+        <circle cx="338" cy="224" r="24" fill="none" stroke="#9eff8a"/>
+        <circle cx="96" cy="252" r="12" fill="none" stroke="#9eff8a"/>
+        <circle cx="236" cy="300" r="8" fill="#5de4ff"/>
+        <circle cx="276" cy="132" r="6" fill="#ff4fa3"/>
+        <circle cx="144" cy="206" r="5" fill="#9eff8a"/>
+      </g>
+
+      <g transform="translate(218 176)">
+        <animateTransform attributeName="transform" type="translate" values="218 176;218 168;218 176" dur="6s" repeatCount="indefinite"/>
+        <rect x="-52" y="-88" width="104" height="72" rx="24" fill="url(#glass)" stroke="#b8fff0" stroke-opacity="0.65" stroke-width="2"/>
+        <rect x="-36" y="-66" width="72" height="30" rx="12" fill="#071116" stroke="#5de4ff" stroke-opacity="0.35"/>
+        <circle cx="-19" cy="-51" r="5" fill="#9eff8a" filter="url(#glow)"/>
+        <circle cx="19" cy="-51" r="5" fill="#9eff8a" filter="url(#glow)"/>
+        <path d="M0-88v-24" stroke="#9db8b5" stroke-width="3"/>
+        <path d="M0-112c-18-2-28-14-26-32 18 2 28 14 26 32z" fill="url(#leaf)"/>
+        <path d="M-42-12h84l22 92-30 22h-68l-30-22z" fill="url(#glass)" stroke="#b8fff0" stroke-opacity="0.5" stroke-width="2"/>
+        <circle cx="0" cy="42" r="32" fill="#9eff8a" opacity="0.65" filter="url(#glow)"/>
+        <circle cx="0" cy="42" r="12" fill="#effff4"/>
+        <path d="M0 42c-26-20-42-4-42 18s26 28 42 6 26-30 42-14-2 40-30 34M0 42c26-20 42-4 42 18s-26 28-42 6-26-30-42-14 2 40 30 34" fill="none" stroke="#5de4ff" stroke-width="2" stroke-opacity="0.75"/>
+        <path d="M-42-4c-30 12-44 38-46 66M42-4c30 12 44 38 46 66" fill="none" stroke="#9eff8a" stroke-width="3" stroke-linecap="round"/>
+        <path d="M-88 62c-30-2-48-16-56-38 30 2 48 16 56 38zM88 62c30-2 48-16 56-38-30 2-48 16-56 38z" fill="url(#leaf)"/>
+      </g>
+
+      <path d="M218 18v-18M218 334v18M60 176H42M394 176h18" stroke="#5de4ff" stroke-opacity="0.55"/>
+      <text x="218" y="366" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#8aa7a8" font-size="11" letter-spacing="3">CULTURE STABLE</text>
+    </g>
+
+    <g transform="translate(520 116)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="0" y="24" fill="#8aa7a8" font-size="12" letter-spacing="3">DESIGNATION</text>
+      <text x="0" y="72" fill="#f1fff7" font-size="40" font-weight="700" letter-spacing="3">MARCOS ALVAREZ</text>
+      <path d="M0 94h586" stroke="#5de4ff" stroke-opacity="0.25"/>
+
+      <g transform="translate(0 126)">
+        <text x="0" y="0" fill="#8aa7a8" font-size="11" letter-spacing="2">CLASS</text>
+        <text x="0" y="28" fill="#9eff8a" font-size="18">BIOTECH BUILDER</text>
+
+        <text x="300" y="0" fill="#8aa7a8" font-size="11" letter-spacing="2">BASE</text>
+        <text x="300" y="28" fill="#e9fff2" font-size="18">MEDELLIN, CO</text>
+
+        <text x="0" y="76" fill="#8aa7a8" font-size="11" letter-spacing="2">FOCUS</text>
+        <text x="0" y="104" fill="#e9fff2" font-size="18">ML + BIOINFORMATICS</text>
+
+        <text x="300" y="76" fill="#8aa7a8" font-size="11" letter-spacing="2">STATUS</text>
+        <circle cx="307" cy="98" r="5" fill="#9eff8a" filter="url(#glow)"/>
+        <text x="322" y="104" fill="#9eff8a" font-size="18">VIABLE</text>
+      </g>
+
+      <g transform="translate(0 278)">
+        <rect width="586" height="76" rx="16" fill="#0b171d" fill-opacity="0.72" stroke="#5de4ff" stroke-opacity="0.24"/>
+        <text x="20" y="26" fill="#8aa7a8" font-size="11" letter-spacing="2">ACTIVE QUEST</text>
+        <text x="20" y="54" fill="#e9fff2" font-size="18">BUILD REPRODUCIBLE ML SYSTEMS</text>
+        <path d="M472 46h74" stroke="#ff4fa3" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 8">
+          <animate attributeName="stroke-dashoffset" values="0;-36" dur="4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+
+    <g transform="translate(1110 452)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#8aa7a8" font-size="11" letter-spacing="2">
+      <text text-anchor="end">BIO//CORE</text>
+      <text y="18" text-anchor="end">SPECIMEN 001</text>
+    </g>
+  </g>
+</svg>
