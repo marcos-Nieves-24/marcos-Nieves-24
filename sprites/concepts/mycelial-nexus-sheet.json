@@ -1,0 +1,81 @@
+{ "frames": [
+   {
+    "filename": "mycelial-nexus #pulse 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 180
+   },
+   {
+    "filename": "mycelial-nexus #pulse 1.aseprite",
+    "frame": { "x": 130, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 120
+   },
+   {
+    "filename": "mycelial-nexus #pulse 2.aseprite",
+    "frame": { "x": 260, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 120
+   },
+   {
+    "filename": "mycelial-nexus #pulse 3.aseprite",
+    "frame": { "x": 390, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 180
+   },
+   {
+    "filename": "mycelial-nexus #pulse 4.aseprite",
+    "frame": { "x": 520, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 120
+   },
+   {
+    "filename": "mycelial-nexus #pulse 5.aseprite",
+    "frame": { "x": 650, "y": 0, "w": 130, "h": 146 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 144 },
+    "sourceSize": { "w": 128, "h": 144 },
+    "duration": 120
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "mycelial-nexus-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 780, "h": 146 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "pulse", "from": 0, "to": 5, "direction": "forward", "color": "#56d9e8ff" }
+  ],
+  "layers": [
+   { "name": "roots", "opacity": 255, "blendMode": "normal" },
+   { "name": "stem", "opacity": 255, "blendMode": "normal" },
+   { "name": "cap", "opacity": 255, "blendMode": "normal" },
+   { "name": "gills", "opacity": 255, "blendMode": "normal" },
+   { "name": "cores", "opacity": 255, "blendMode": "normal" },
+   { "name": "mycelium", "opacity": 255, "blendMode": "normal" },
+   { "name": "pulse", "opacity": 255, "blendMode": "normal" },
+   { "name": "spores", "opacity": 255, "blendMode": "normal" },
+   { "name": "details", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

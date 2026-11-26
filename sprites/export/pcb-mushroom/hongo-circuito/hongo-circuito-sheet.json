@@ -1,0 +1,59 @@
+{ "frames": {
+   "hongo-circuito 0.aseprite": {
+    "frame": { "x": 2, "y": 2, "w": 384, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 256 },
+    "sourceSize": { "w": 384, "h": 256 },
+    "duration": 240
+   },
+   "hongo-circuito 1.aseprite": {
+    "frame": { "x": 389, "y": 2, "w": 384, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 256 },
+    "sourceSize": { "w": 384, "h": 256 },
+    "duration": 120
+   },
+   "hongo-circuito 2.aseprite": {
+    "frame": { "x": 776, "y": 2, "w": 384, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 256 },
+    "sourceSize": { "w": 384, "h": 256 },
+    "duration": 80
+   },
+   "hongo-circuito 3.aseprite": {
+    "frame": { "x": 1163, "y": 2, "w": 384, "h": 256 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 256 },
+    "sourceSize": { "w": 384, "h": 256 },
+    "duration": 240
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.3.18.6-dev",
+  "image": "sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 1549, "h": 260 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "charge-cycle", "from": 0, "to": 3, "direction": "forward", "color": "#ed4fb5ff" }
+  ],
+  "layers": [
+   { "name": "background", "opacity": 255, "blendMode": "normal" },
+   { "name": "halo", "opacity": 255, "blendMode": "normal" },
+   { "name": "pcb", "opacity": 255, "blendMode": "normal" },
+   { "name": "traces", "opacity": 255, "blendMode": "normal" },
+   { "name": "roots", "opacity": 255, "blendMode": "normal" },
+   { "name": "stem", "opacity": 255, "blendMode": "normal" },
+   { "name": "gills", "opacity": 255, "blendMode": "normal" },
+   { "name": "cap", "opacity": 255, "blendMode": "normal" },
+   { "name": "veins", "opacity": 255, "blendMode": "normal" },
+   { "name": "details", "opacity": 255, "blendMode": "normal" },
+   { "name": "energy", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "hongo-circuito",
+      "status": "prototype",
+      "source": "sprites/source/pcb-mushroom/hongo-circuito/hongo-circuito.aseprite",
+      "spec": "sprites/source/pcb-mushroom/hongo-circuito/SPEC.md",
+      "palette": "sprites/palettes/hongo-circuito.gpl",
+      "reference_ids": ["user-hongo-circuito"],
+      "native": {"width": 384, "height": 256},
+      "preview_scale": 2,
+      "required_layers": ["background", "halo", "pcb", "traces", "roots", "stem", "gills", "cap", "veins", "details", "energy"],
+      "animation_tags": ["charge-cycle"],
+      "max_colors": 64,
+      "exports": {
+        "png": "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito.png",
+        "gif": "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito.gif",
+        "sheet": "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito-sheet.png",
+        "atlas": "sprites/export/pcb-mushroom/hongo-circuito/hongo-circuito-sheet.json"
+      }
+    }
+  ]
+}

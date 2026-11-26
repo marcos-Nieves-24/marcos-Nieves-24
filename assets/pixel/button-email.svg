@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28" shape-rendering="crispEdges" role="img" aria-labelledby="title desc">
+<title id="title">Pixel-art button: EMAIL</title>
+<desc id="desc">Pixel-art navigation button labeled EMAIL.</desc>
+<rect x="0" y="0" width="120" height="28" fill="#070a12"/>
+<rect x="2" y="2" width="116" height="24" fill="#111126"/>
+<rect x="2" y="2" width="116" height="3" fill="#e85ca8"/>
+<rect x="2" y="23" width="116" height="3" fill="#e85ca8"/>
+<rect x="10" y="8" width="4" height="1" fill="#e8fff1"/>
+<rect x="10" y="9" width="1" height="1" fill="#e8fff1"/>
+<rect x="13" y="9" width="1" height="1" fill="#e8fff1"/>
+<rect x="10" y="10" width="1" height="1" fill="#e8fff1"/>
+<rect x="13" y="10" width="1" height="1" fill="#e8fff1"/>
+<rect x="10" y="11" width="1" height="1" fill="#e8fff1"/>
+<rect x="11" y="11" width="2" height="1" fill="#3aa45d"/>
+<rect x="13" y="11" width="1" height="1" fill="#e8fff1"/>
+<rect x="10" y="12" width="1" height="1" fill="#e8fff1"/>
+<rect x="11" y="12" width="2" height="1" fill="#3aa45d"/>
+<rect x="13" y="12" width="1" height="1" fill="#e8fff1"/>
+<rect x="10" y="13" width="1" height="1" fill="#e8fff1"/>
+<rect x="11" y="13" width="2" height="1" fill="#3aa45d"/>
+<rect x="13" y="13" width="1" height="1" fill="#e8fff1"/>
+<rect x="10" y="14" width="4" height="1" fill="#e8fff1"/>
+<path d="M28 11h5v1h-5zM28 12h1v1h-1zM28 13h1v1h-1zM28 14h4v1h-4zM28 15h1v1h-1zM28 16h1v1h-1zM28 17h5v1h-5zM34 11h1v1h-1zM38 11h1v1h-1zM34 12h2v1h-2zM37 12h2v1h-2zM34 13h1v1h-1zM36 13h1v1h-1zM38 13h1v1h-1zM34 14h1v1h-1zM36 14h1v1h-1zM38 14h1v1h-1zM34 15h1v1h-1zM38 15h1v1h-1zM34 16h1v1h-1zM38 16h1v1h-1zM34 17h1v1h-1zM38 17h1v1h-1zM41 11h3v1h-3zM40 12h1v1h-1zM44 12h1v1h-1zM40 13h1v1h-1zM44 13h1v1h-1zM40 14h5v1h-5zM40 15h1v1h-1zM44 15h1v1h-1zM40 16h1v1h-1zM44 16h1v1h-1zM40 17h1v1h-1zM44 17h1v1h-1zM46 11h5v1h-5zM48 12h1v1h-1zM48 13h1v1h-1zM48 14h1v1h-1zM48 15h1v1h-1zM48 16h1v1h-1zM46 17h5v1h-5zM52 11h1v1h-1zM52 12h1v1h-1zM52 13h1v1h-1zM52 14h1v1h-1zM52 15h1v1h-1zM52 16h1v1h-1zM52 17h5v1h-5z" fill="#e8fff1"/>
+</svg>

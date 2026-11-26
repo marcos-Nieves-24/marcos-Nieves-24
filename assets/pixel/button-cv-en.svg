@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28" shape-rendering="crispEdges" role="img" aria-labelledby="title desc">
+<title id="title">Pixel-art button: CV ENGLISH</title>
+<desc id="desc">Pixel-art navigation button labeled CV ENGLISH.</desc>
+<rect x="0" y="0" width="120" height="28" fill="#070a12"/>
+<rect x="2" y="2" width="116" height="24" fill="#111126"/>
+<rect x="2" y="2" width="116" height="3" fill="#f2c14e"/>
+<rect x="2" y="23" width="116" height="3" fill="#f2c14e"/>
+<rect x="12" y="8" width="4" height="1" fill="#e8fff1"/>
+<rect x="12" y="9" width="1" height="1" fill="#e8fff1"/>
+<rect x="15" y="9" width="1" height="1" fill="#e8fff1"/>
+<rect x="12" y="10" width="1" height="1" fill="#e8fff1"/>
+<rect x="15" y="10" width="1" height="1" fill="#e8fff1"/>
+<rect x="12" y="11" width="1" height="1" fill="#e8fff1"/>
+<rect x="15" y="11" width="1" height="1" fill="#e8fff1"/>
+<rect x="11" y="12" width="2" height="1" fill="#e8fff1"/>
+<rect x="15" y="12" width="2" height="1" fill="#e8fff1"/>
+<rect x="10" y="13" width="2" height="1" fill="#e8fff1"/>
+<rect x="16" y="13" width="2" height="1" fill="#e8fff1"/>
+<rect x="9" y="14" width="2" height="1" fill="#e8fff1"/>
+<rect x="13" y="14" width="2" height="1" fill="#3aa45d"/>
+<rect x="16" y="14" width="2" height="1" fill="#e8fff1"/>
+<rect x="9" y="15" width="1" height="1" fill="#e8fff1"/>
+<rect x="12" y="15" width="4" height="1" fill="#3aa45d"/>
+<rect x="17" y="15" width="1" height="1" fill="#e8fff1"/>
+<rect x="11" y="16" width="5" height="1" fill="#3aa45d"/>
+<rect x="11" y="17" width="4" height="1" fill="#3aa45d"/>
+<rect x="12" y="18" width="2" height="1" fill="#3aa45d"/>
+<rect x="12" y="19" width="2" height="1" fill="#e8fff1"/>
+<path d="M29 11h4v1h-4zM28 12h1v1h-1zM28 13h1v1h-1zM28 14h1v1h-1zM28 15h1v1h-1zM28 16h1v1h-1zM29 17h4v1h-4zM34 11h1v1h-1zM38 11h1v1h-1zM34 12h1v1h-1zM38 12h1v1h-1zM34 13h1v1h-1zM38 13h1v1h-1zM34 14h1v1h-1zM38 14h1v1h-1zM34 15h1v1h-1zM38 15h1v1h-1zM35 16h1v1h-1zM37 16h1v1h-1zM36 17h1v1h-1zM46 11h5v1h-5zM46 12h1v1h-1zM46 13h1v1h-1zM46 14h4v1h-4zM46 15h1v1h-1zM46 16h1v1h-1zM46 17h5v1h-5zM52 11h1v1h-1zM56 11h1v1h-1zM52 12h2v1h-2zM56 12h1v1h-1zM52 13h2v1h-2zM56 13h1v1h-1zM52 14h1v1h-1zM54 14h1v1h-1zM56 14h1v1h-1zM52 15h1v1h-1zM55 15h2v1h-2zM52 16h1v1h-1zM55 16h2v1h-2zM52 17h1v1h-1zM56 17h1v1h-1zM59 11h4v1h-4zM58 12h1v1h-1zM58 13h1v1h-1zM58 14h1v1h-1zM60 14h3v1h-3zM58 15h1v1h-1zM62 15h1v1h-1zM58 16h1v1h-1zM62 16h1v1h-1zM59 17h4v1h-4zM64 11h1v1h-1zM64 12h1v1h-1zM64 13h1v1h-1zM64 14h1v1h-1zM64 15h1v1h-1zM64 16h1v1h-1zM64 17h5v1h-5zM70 11h5v1h-5zM72 12h1v1h-1zM72 13h1v1h-1zM72 14h1v1h-1zM72 15h1v1h-1zM72 16h1v1h-1zM70 17h5v1h-5zM77 11h4v1h-4zM76 12h1v1h-1zM76 13h1v1h-1zM77 14h3v1h-3zM80 15h1v1h-1zM80 16h1v1h-1zM76 17h4v1h-4zM82 11h1v1h-1zM86 11h1v1h-1zM82 12h1v1h-1zM86 12h1v1h-1zM82 13h1v1h-1zM86 13h1v1h-1zM82 14h5v1h-5zM82 15h1v1h-1zM86 15h1v1h-1zM82 16h1v1h-1zM86 16h1v1h-1zM82 17h1v1h-1zM86 17h1v1h-1z" fill="#e8fff1"/>
+</svg>
