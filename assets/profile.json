@@ -1,0 +1,19 @@
+{
+  "title": "MARCOS ALVAREZ",
+  "handle": "marcos-Nieves-24",
+  "tagline": "SOFTWARE FOR BIOLOGY",
+  "card_title": "BIO_SYSTEM",
+  "player": "MARCOS ALVAREZ",
+  "fields": [
+    ["CLASS", "BIOTECH BUILDER"],
+    ["BASE", "MEDELLIN, CO"],
+    ["FOCUS", "ML + BIOINFORMATICS"]
+  ],
+  "stack": ["PY", "TF", "GIT", "BASH", "DOCKER"],
+  "status": "ONLINE",
+  "quest": "BUILD REPRODUCIBLE ML",
+  "footer": "THANKS FOR VISITING *",
+  "footer_hint": "PRESS START",
+  "theme": "dusk",
+  "character": "robot"
+}

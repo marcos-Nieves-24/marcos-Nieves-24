@@ -1,10 +1,14 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Marcos Alvarez — Software for Biology" width="100%">
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1b2a,50:14532d,100:00e0a4&height=180&section=header&text=Marcos%20Alvarez&fontSize=40&fontColor=ffffff&desc=Building%20Software%20for%20Biology&descAlignY=63&descColor=b8f2de" width="100%"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&pause=1200&color=00E0A4&center=true&vCenter=true&width=760&lines=Biotechnology+%E2%86%92+Machine+Learning;Edge+ML+for+plant+disease;Reproducible+bioinformatics;Software+for+life+sciences" alt="Biotechnology, edge ML, bioinformatics and software for life sciences">
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1300&color=00E0A4&center=true&vCenter=true&width=720&lines=edge+ML+for+plant+disease+detection;reproducible+bioinformatics+workflows;full-stack+tools+for+biotech+education;open-source+software+for+life+sciences" />
-
-</div>
+<p align="center">
+  <img src="assets/status.svg" alt="Player status: Biotech Builder in Medellín, focused on machine learning and bioinformatics" width="100%">
+</p>
 
 ## 🧬 About Me
 
@@ -17,6 +21,10 @@ My work sits at the intersection of **machine learning, edge computing and life 
 - ⚙️ Software engineering — Docker, clean/hexagonal architecture, typed services, automated test suites, CI/CD
 - 🌍 Applied ML — statistical analysis of bioassay data, factorial experimental design, dose–response modelling
 - 🎓 Curriculum design — a 5-module AI/ML bootcamp in Spanish, with datasets, case studies, exams and full course documentation
+
+<p align="center">
+  <img src="assets/divider.svg" alt="" width="100%">
+</p>
 
 ## 🔬 Research Experience
 
@@ -35,12 +43,7 @@ My work sits at the intersection of **machine learning, edge computing and life 
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-
-<td width="350">
-
-### <a href="https://github.com/marcos-Nieves-24/InVitro-Code">🤖 InVitro-Code</a>
+### 🤖 [InVitro-Code](https://github.com/marcos-Nieves-24/InVitro-Code)
 
 > Web platform that teaches AI/ML to biotechnology students through lessons, quizzes and in-browser Python labs.
 > **Live at [invitro-code.vercel.app](https://invitro-code.vercel.app)**
@@ -57,11 +60,9 @@ My work sits at the intersection of **machine learning, edge computing and life 
 
 `Next.js 16` `TypeScript` `MDX` `Pyodide` `Supabase` `Clerk` `FastAPI` `Docker`
 
-</td>
+---
 
-<td width="350">
-
-### <a href="https://github.com/marcos-Nieves-24/machine-learning-codes">🧪 Snake Venom Analysis</a>
+### 🧪 [Snake Venom Analysis](https://github.com/marcos-Nieves-24/machine-learning-codes)
 
 > Reproducible biostatistical pipeline for snake-venom bioassays on cell-viability data.
 
@@ -76,11 +77,9 @@ My work sits at the intersection of **machine learning, edge computing and life 
 
 `Python` `pandas` `scikit-learn` `NumPy` `SciPy` `Jupyter`
 
-</td>
+---
 
-<td width="350">
-
-### <a href="https://github.com/marcos-Nieves-24/proyecto-tomillo">🌿 Thyme × <i>Fusarium</i> spp.</a>
+### 🌿 [Thyme × *Fusarium* spp.](https://github.com/marcos-Nieves-24/proyecto-tomillo)
 
 > Factorial statistical analysis of antifungal activity of thyme extracts.
 
@@ -95,27 +94,41 @@ My work sits at the intersection of **machine learning, edge computing and life 
 
 `Python` `Jupyter` `Pandas` `NumPy` `SciPy`
 
-</td>
-
-</tr>
-</table>
-
 ## 🧰 More Projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp) | Full AI/ML bootcamp curriculum in Spanish — 5 modules (AI, Python, Statistics, Machine Learning, Ethics) with case studies, exams, datasets and complete course documentation | `Python` `Jupyter` `Markdown` |
-| [Machine Learning Zoomcamp](https://github.com/marcos-Nieves-24/machine-learning-zoomcamp) | DataTalksClub exercises: regression, ensembles and reproducible model pipelines | `Python` `scikit-learn` `Jupyter` |
-| [rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline) | FASTQ → QC → alignment → quantification → differential expression → RNAi candidate ranking *(in development)* | `Python` `Bash` |
-| [virtual-bioprocess-iot](https://github.com/marcos-Nieves-24/virtual-bioprocess-iot) | Virtual fermentation simulator: growth kinetics, PID control, sensors and actuators | `C++` `CMake` `NumPy` `SciPy` |
-| [BioEncrypter](https://github.com/marcos-Nieves-24/BioEncrypter) | Encryption, integrity verification and secure packaging of sensitive biological data *(early stage)* | `Python` |
-| [Colombia_investment_dashboad](https://github.com/marcos-Nieves-24/Colombia_investment_dashboad) | Geospatial dashboard over Colombian public-investment data | `Python` `GeoJSON` |
+- **[ml-bootcamp](https://github.com/marcos-Nieves-24/ml-bootcamp)** — Full AI/ML bootcamp curriculum in Spanish — 5 modules (AI, Python, Statistics, Machine Learning, Ethics) with case studies, exams, datasets and complete course documentation.
+
+  `Python` `Jupyter` `Markdown`
+
+- **[Machine Learning Zoomcamp](https://github.com/marcos-Nieves-24/machine-learning-zoomcamp)** — DataTalksClub exercises: regression, ensembles and reproducible model pipelines.
+
+  `Python` `scikit-learn` `Jupyter`
+
+- **[rna-seq-to-rnai-pipeline](https://github.com/marcos-Nieves-24/rna-seq-to-rnai-pipeline)** — FASTQ → QC → alignment → quantification → differential expression → RNAi candidate ranking *(in development)*.
+
+  `Python` `Bash`
+
+- **[virtual-bioprocess-iot](https://github.com/marcos-Nieves-24/virtual-bioprocess-iot)** — Virtual fermentation simulator: growth kinetics, PID control, sensors and actuators.
+
+  `C++` `CMake` `NumPy` `SciPy`
+
+- **[BioEncrypter](https://github.com/marcos-Nieves-24/BioEncrypter)** — Encryption, integrity verification and secure packaging of sensitive biological data *(early stage)*.
+
+  `Python`
+
+- **[Colombia_investment_dashboad](https://github.com/marcos-Nieves-24/Colombia_investment_dashboad)** — Geospatial dashboard over Colombian public-investment data.
+
+  `Python` `GeoJSON`
 
 ## 🧰 Technical Toolkit
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,typescript,linux,git,docker,jupyter,bash,postgres,github&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=python,typescript,linux,git,docker,jupyter,bash,postgres,github&theme=dark" alt="Python, TypeScript, Linux, Git, Docker, Jupyter, Bash, PostgreSQL and GitHub"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=marcos-Nieves-24&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=00E0A4&icon_color=38BDF8&text_color=E6F7F2&border_color=1F3B4D" alt="GitHub statistics for marcos-Nieves-24" width="490"/>
 
 </div>
 
@@ -132,7 +145,11 @@ Open to internships and collaborations in **bioinformatics, computational biolog
 
 <div align="left">
 
-<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/marcos-alvarez-362b721a8"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:uni.biotec.24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
+
+<p align="center">
+  <img src="assets/footer.svg" alt="Thanks for visiting — press start" width="100%">
+</p>
