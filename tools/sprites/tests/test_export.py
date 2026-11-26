@@ -83,6 +83,29 @@ class ExportSafetyTests(unittest.TestCase):
 
             for relative in asset["exports"].values():
                 self.assertEqual((repo_root / relative).read_text(encoding="utf-8"), "old")
+    def test_export_removes_new_target_when_replacement_fails(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo_root = Path(temp)
+            asset = make_asset()
+            real_replace = os.replace
+            calls = 0
+
+            def fail_second_replace(source, target):
+                nonlocal calls
+                calls += 1
+                if calls == 2:
+                    raise OSError("replace failed")
+                return real_replace(source, target)
+
+            with (
+                patch("common.run", side_effect=fake_aseprite),
+                patch("os.replace", side_effect=fail_second_replace),
+            ):
+                with self.assertRaisesRegex(SpriteError, "replace failed"):
+                    export_asset(repo_root, asset)
+
+            for relative in asset["exports"].values():
+                self.assertFalse((repo_root / relative).exists())
 
 
 if __name__ == "__main__":

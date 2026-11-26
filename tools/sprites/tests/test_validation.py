@@ -93,6 +93,24 @@ class ValidationSafetyTests(unittest.TestCase):
             with self.assertRaisesRegex(SpriteError, "no frames"):
                 contact_sheet(repo_root, asset)
 
+    def test_contact_sheet_rejects_malformed_frame_entries(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo_root = Path(temp)
+            asset = valid_asset()
+            sheet = repo_root / asset["exports"]["sheet"]
+            sheet.parent.mkdir(parents=True, exist_ok=True)
+            Image.new("RGBA", (2, 2)).save(sheet)
+            malformed_frames = [
+                ["not-an-object"],
+                [{"frame": {"x": 0, "y": 0}}],
+                [{"frame": {"x": 0, "y": 0, "w": "2", "h": 2}}],
+            ]
+            for frames in malformed_frames:
+                (repo_root / asset["exports"]["atlas"]).write_text(json.dumps({"frames": frames}), encoding="utf-8")
+                with self.subTest(frames=frames):
+                    with self.assertRaisesRegex(SpriteError, "Invalid atlas frame"):
+                        contact_sheet(repo_root, asset)
+
     def test_atlas_rejects_non_positive_durations(self):
         atlas = {
             "meta": {"size": {"w": 2, "h": 2}, "frameTags": [{"name": "idle"}]},

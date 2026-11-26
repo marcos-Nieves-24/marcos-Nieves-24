@@ -363,6 +363,19 @@ def export_asset(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
     return {"asset": asset["id"], "exported": list(asset["exports"].values())}
 
 
+def _atlas_frame_rect(atlas_path: Path, index: int, frame: object) -> tuple[int, int, int, int]:
+    if not isinstance(frame, dict) or not isinstance(frame.get("frame"), dict):
+        raise SpriteError(f"Invalid atlas frame {index} in {atlas_path}")
+    rect = frame["frame"]
+    values = [rect.get(key) for key in ("x", "y", "w", "h")]
+    if any(not isinstance(value, int) or isinstance(value, bool) for value in values):
+        raise SpriteError(f"Invalid atlas frame {index} in {atlas_path}")
+    x, y, width, height = values
+    if width <= 0 or height <= 0:
+        raise SpriteError(f"Invalid atlas frame {index} in {atlas_path}")
+    return x, y, width, height
+
+
 def contact_sheet(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
     sheet_path = repo_root / asset["exports"]["sheet"]
     atlas_path = repo_root / asset["exports"]["atlas"]
@@ -374,9 +387,9 @@ def contact_sheet(repo_root: Path, asset: dict[str, Any]) -> dict[str, Any]:
     frames = []
     with Image.open(sheet_path) as sheet:
         sheet = sheet.convert("RGBA")
-        for frame in frame_specs:
-            rect = frame["frame"]
-            frames.append(sheet.crop((rect["x"], rect["y"], rect["x"] + rect["w"], rect["y"] + rect["h"])))
+        for index, frame in enumerate(frame_specs):
+            x, y, width, height = _atlas_frame_rect(atlas_path, index, frame)
+            frames.append(sheet.crop((x, y, x + width, y + height)))
 
     gap = max(4, asset["native"]["width"] // 32)
     columns = math.ceil(math.sqrt(len(frames)))

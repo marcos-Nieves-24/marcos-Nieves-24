@@ -19,6 +19,8 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
    - Acceptance: commit `5ebe884` was created after explicit authorization; no push, PR, merge or root README integration has occurred.
 6. S6 — “continua con la siguiente fase”
    - Acceptance: review follow-ups are addressed for portable temporary directories, bounded subprocesses, atomic export rollback, clean CLI failures, malformed manifests, empty atlases and missing-file proofs; focused and full tests pass.
+7. S7 — “Cerrar follow-ups (Recommended)”
+   - Acceptance: export rollback is tested when a target did not previously exist, and malformed atlas frame entries produce `SpriteError` instead of `KeyError` or `TypeError`.
 
 ## Tasks
 
@@ -29,6 +31,8 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - T5 — Harden export execution with portable temporary storage, subprocess timeouts and atomic rollback. Route: inline. Status: completed.
 - T6 — Harden manifest, atlas, proof and CLI failure handling. Route: inline. Status: completed.
 - T7 — Re-run full verification, review and commit the hardening slice. Route: inline. Status: completed.
+- T8 — Cover absent-target rollback and reject malformed atlas frame entries. Route: inline. Status: completed.
+- T9 — Re-run full verification, review and commit the follow-up slice. Route: inline. Status: pending.
 
 ## Log
 
@@ -44,3 +48,5 @@ Test runner: `python3 -m unittest discover -s tools/sprites/tests -v`
 - L10 — Committed-only lineage `review-4a962e591f3f842b` was approved and acknowledged. Its non-blocking resilience, reliability and readability advisories define the T5-T6 hardening scope.
 - L11 — T5-T6 implemented with observed RED to GREEN. Full suite 19/19, doctor and `verify.py --all --check-only` pass. Differential checks for doctor, verify, export and contact-sheet match commit `5ebe884`; all seven generated artifacts are byte-identical.
 - L12 — Hardening committed as `d048ab3`. Lineage `review-5feb369f3acb4a9d` was approved and acknowledged. Non-blocking follow-ups remain: exercise rollback when a target did not previously exist, and reject malformed atlas frame entries with `SpriteError`.
+- L13 — User selected “Cerrar follow-ups (Recommended)” to address both remaining non-blocking findings before delivery.
+- L14 — T8 completed: absent-target rollback is covered and malformed atlas frame entries now raise `SpriteError`. Full suite 21/21, doctor and verify pass; contact-sheet stdout, stderr, exit code and all three preview images match `c0bc25c`.
